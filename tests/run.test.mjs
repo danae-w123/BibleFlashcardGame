@@ -1,9 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {newProfile,startRun,runChoice,planMove,arrive,runBattle,runCombat,finishRunBattle,settleRun,returnToLobby,trainWithGold,enterShop,buyRunOffer,runAnswer,migrate,campChoice} from '../run.mjs';
+import {newProfile,startRun,runChoice,planMove,arrive,runBattle as prepareBattle,beginBattle,runCombat,finishRunBattle,settleRun,returnToLobby,trainWithGold,enterShop,buyRunOffer,runAnswer,migrate,campChoice} from '../run.mjs';
 import {baseDamage,drawSkillChoices,freshState} from '../engine.mjs';
 import {equipItem,awardItem,fusionRecipe,fuseEquipment,protectEquipment,resetEquipmentLevel,upgradeEquipment} from '../progression.mjs';
-const active=()=>{let s=startRun(newProfile('Test'));return runChoice(s,s.skillChoices[0]);};
+const runBattle=(s,kind)=>beginBattle(prepareBattle(s,kind));
+const active=()=>{let s=startRun(newProfile('Test'));s.skillChoices=['frost'];return runChoice(s,'frost');};
 test('new and migrated profiles start in lobby without erasing permanent resources or results',()=>{const old={...freshState('Old'),coins:70,stage:3,armor:[0,1],attempts:[{correct:false,reference:'John 1:1'}]};const s=migrate(old);assert.equal(s.phase,'lobby');assert.equal(s.coins,70);assert.equal(s.unlocked,3);assert.equal(s.attempts.length,1);assert.equal(newProfile().phase,'lobby');});
 test('saved movement resumes without consuming a second turn or reroll',()=>{const s=planMove(active(),()=>.8);const restored=JSON.parse(JSON.stringify(s));assert.deepEqual(planMove(restored,()=>0),s);const done=arrive(restored);assert.equal(done.run.turn,1);assert.equal(done.position,5);assert.equal(done.run.move,null);});
 test('finite board forces scripture, shops, elites, and final boss',()=>{let s=active();const found=[];for(let i=0;i<30;i++){s=arrive(planMove({...s,event:null},()=>0));found.push(s.event);}assert.equal(found[2],'trial');assert.equal(found[4],'market');assert.equal(found[9],'elite');assert.equal(found[19],'elite');assert.equal(found[29],'boss');});
@@ -40,3 +41,5 @@ test('settlement archives the run build and removes temporary stats from the lob
 });
 
 test('camp training offers learned skills only and never grants a free new skill',()=>{let s={...active(),event:'camp',skills:{fire:1,poison:2,frost:3}};s=campChoice(s,'train',()=>0);assert.deepEqual(s.skillChoices,['fire','poison']);assert.equal(s.upgradePending,true);s=runChoice(s,'fire');assert.equal(s.skills.fire,2);assert.equal(s.skills.poison,2);});
+
+test('encounters wait for explicit Start Battle and preserve waiting through reload',()=>{const s=prepareBattle(active());assert.equal(s.battle.started,false);assert.throws(()=>runCombat(s,'strike'),/Start Battle/);const loaded=JSON.parse(JSON.stringify(s));assert.equal(loaded.battle.turn,1);const started=beginBattle(loaded);assert.equal(started.battle.started,true);assert.ok(runCombat(started,'strike',()=>.99).battle.turn>1);});

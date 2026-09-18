@@ -5,7 +5,7 @@ A responsive, original Bible-study board adventure built for GitHub Pages.
 ## Included
 
 - Character lobby with male/female appearance, Guardian/Wayfarer/Lightweaver paths, permanent stats, equipment, gold shop, and chapter selection.
-- One click enters a finite 30-turn chapter. Board movement and combat proceed automatically, pausing for scripture answers, three-way skills, events, shopping or the player's Pause control.
+- One click enters a finite 30-turn chapter. Board movement proceeds automatically. Each monster encounter waits for **Start Battle**; attack exchanges then run automatically, pausing for scripture answers, three-way skills, events, shopping or the player's Pause control.
 - Elite checkpoints and an unavoidable final monster boss. Death ends the run; only the explicitly acquired Last Light skill provides a one-use revival.
 - Victory or defeat settles gold, hero XP, shards and earned chests exactly once. Return to the lobby to upgrade, retry or play another unlocked chapter. Earlier chapters remain replayable.
 - Separate permanent gold and temporary run tokens. Board shops sell healing, temporary attack/defense and skills, with sold-out states, refresh prices and current-build inspection.
@@ -14,7 +14,9 @@ A responsive, original Bible-study board adventure built for GitHub Pages.
 - Fifteen skills including elemental damage, critical attacks, defense, healing, revival and conditional advanced skills. Skills and shop bonuses reset each run; equipment and permanent training persist.
 - Camps offer healing or an upgrade to a learned skill; treasure, blessings and storms resolve automatically.
 - A 0–100% ultimate meter powers weapon-specific Dawnfire, Aegis Strike and Starfall attacks. Epic weapons unlock extra effects. Enemies use regeneration, shields or a low-health attack increase.
-- Animated automatic battles above the visible board, pause, 2× speed, damage feedback, elemental effects and reduced-motion support.
+- Six distinct chapter maps with coast, vineyard, night, oasis, watchtower and summit landscapes and separate routes.
+- Viewport-sized lobby and play screen: battle beside the map on desktop, above a compact map on phones. Details and long study content use scrollable dialogs.
+- Player-started animated battles, pause, 2× speed, damage feedback, elemental effects and reduced-motion support.
 - Original exploration music and a livelier battle theme, with mute controls. No external music service is required.
 - Six Armor of God learning milestones: win the corresponding chapter with at least four correct answers. Earn each milestone once; replay chapters as needed.
 - All supplied study content: 560 distinct questions and 19 memory passages. Missing-letter clues, verse references, full recall and quiz questions.

@@ -47,10 +47,12 @@ export function runBattle(s,kind='battle'){
  const max=Math.round((52+s.stage*24)*scale*(boss?3:elite?1.6:1));
  const variant=(s.stage+s.battlesWon+s.battlesLost)%3;
  const traits=['Regenerates 6 HP every fourth round. Burn halves this healing.','Starts with a 12 HP stone shield.','Below half health, attacks deal 4 extra damage.'];
- next.battle={...next.battle,kind,variant,trait:traits[variant],enemyShield:variant===1?12:0,name:boss?['Gatekeeper of the Dawn','Cana Stonewarden','Nightshade Colossus','Keeper of the Well','Watchtower Warden','Tempest Sovereign'][s.stage]:elite?'Elite '+next.battle.name:next.battle.name,hp:max,max,shield:0};
+ next.battle={...next.battle,started:false,kind,variant,trait:traits[variant],enemyShield:variant===1?12:0,name:boss?['Gatekeeper of the Dawn','Cana Stonewarden','Nightshade Colossus','Keeper of the Well','Watchtower Warden','Tempest Sovereign'][s.stage]:elite?'Elite '+next.battle.name:next.battle.name,hp:max,max,shield:0};
  return next;
 }
+export function beginBattle(s){if(!s.battle||s.battle.done)throw Error('No battle to start.');return {...s,run:{...s.run,battlePaused:false},battle:{...s.battle,started:true}};}
 export function runCombat(s,action,rng=Math.random){
+ if(!s.battle?.started)throw Error('Press Start Battle before fighting.');
  if(action==='radiance'&&(s.run.charge||0)<100)throw Error('Your ultimate is still charging.');
  let prepared={...s,career:{...career(s),runs:0}};
  const level=career(s).level,round=s.battle.turn;

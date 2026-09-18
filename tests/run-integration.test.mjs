@@ -1,8 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {newProfile,startRun,runChoice,planMove,arrive,runBattle,runCombat,finishRunBattle,runAnswer,runEvent,campChoice,returnToLobby} from '../run.mjs';
+import {newProfile,startRun,runChoice,planMove,arrive,runBattle as prepareBattle,beginBattle,runCombat,finishRunBattle,runAnswer,runEvent,campChoice,returnToLobby} from '../run.mjs';
 import {makeChallenge} from '../engine.mjs';
 import {readFileSync} from 'node:fs';
+const runBattle=(s,kind)=>beginBattle(prepareBattle(s,kind));
 const data=JSON.parse(readFileSync(new URL('../data.json',import.meta.url)));
 
 test('complete finite run resolves every encounter and carries its permanent reward into the next attempt',()=>{

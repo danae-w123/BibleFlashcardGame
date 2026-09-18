@@ -30,3 +30,10 @@ Production Vite build passed. The packaged site loaded in the browser at port 41
 Practice progress is saved on the current device. Supabase signup, email confirmation, row-level account isolation, concurrent-device conflict handling and cross-device resume are not verified live because public project configuration is blank. The connected GitHub account returned no accessible matching repository; no public deployment is claimed.
 
 The requested 50-video review is not complete. See `DISCOVERY.md` for methods, specific observations and source limitations. This build does not reproduce every Rogue Legend subsystem.
+
+
+## Chapter maps and explicit battle start update
+
+Each of six chapters now has its own SVG landscape and unique 20-position route. All assets parse and all route points remain within map bounds. Encounters persist with `started: false` and cannot resolve combat until the player presses Start Battle. A new regression verifies that waiting state survives save/reload. The full suite contains 53 tests; the run fixture now selects a deterministic starting skill so a randomly drawn revival cannot invalidate the defeat test.
+
+Browser checks: full lobby fits 390x844; battle, map and Start Battle are visible at 320x568 and 1280x720; landscape 844x390 keeps battle controls within the panel. No horizontal or vertical page overflow in those tested play-screen sizes. Long study and equipment details use scrollable dialogs. Waiting encounter survived reload with unchanged health; Start Battle, Pause, Resume and victory-to-skill-choice were verified. No console errors appeared in that flow.

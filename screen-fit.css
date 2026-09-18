@@ -1,58 +1,32 @@
-/* Keep the playable lobby within a laptop-height window. */
-@media (min-width:951px) and (max-height:900px){
- .topbar{height:60px}
- main.lobby-main{padding:14px 2% 10px}
- .lobby-main .quest-heading{margin-bottom:12px}
- .lobby-main .quest-heading h1{font-size:25px;margin:5px 0}
- .lobby-main .quest-heading p{margin:4px 0;font-size:12px}
- .lobby-main .quest-heading .eyebrow{font-size:9px}
- .lobby-grid{height:calc(100dvh - 228px);min-height:390px;gap:18px;grid-template-columns:minmax(0,1.15fr) minmax(380px,1fr)}
- .hero-sanctuary{display:flex;flex-direction:column;min-height:0}
- .lobby-scene{flex:1;min-height:0}
- .hero-title{top:12px}.hero-title h2{font-size:23px;margin:5px 0}
- .lobby-hero{height:calc(100% - 64px);width:70%;bottom:34px}
- .lobby-gear{inset:70px 15px 61px;grid-template-columns:68px 68px;grid-template-rows:repeat(3,minmax(0,1fr));gap:7px}
- .lobby-gear button{padding:4px;gap:2px;min-height:0}.lobby-gear svg{width:22px;height:22px}.lobby-gear small,.lobby-gear b{font-size:9px}
- .lobby-stats{bottom:9px}.lobby-stats b{font-size:20px}
- .lobby-wallet{padding:9px 15px;min-height:42px;font-size:11px}
- .lobby-actions{padding:0 10px 10px;gap:7px}.lobby-actions button{font-size:11px;padding:10px 5px}
- .lobby-prepare{padding:14px 18px;overflow:auto;min-height:0}
- .lobby-prepare .panel-label{font-size:9px}.lobby-prepare h2{font-size:22px;margin:5px 0}
- .lobby-prepare>p.muted{font-size:11px;line-height:1.4;margin:5px 0}
- .path-choices{margin:10px 0;gap:6px}.path-choices button{padding:8px 10px;gap:9px}.path-choices strong{font-size:12px}.path-choices small{font-size:10px;line-height:1.35;margin-top:3px}
- .lobby-prepare label{font-size:11px}.lobby-prepare select{margin-top:4px;padding:8px 10px}
- .chapter-brief{margin:8px 0;font-size:10px}
- .lobby-prepare #startRun{padding:11px}.lobby-prepare>p.fine{display:none}.lobby-prepare .sync{margin-top:7px;padding:3px;font-size:10px}
- .last-run{display:none}
- .lobby-milestones{padding:10px 16px;margin-top:12px}.lobby-milestones>.eyebrow{font-size:9px}
- .lobby-milestones>div{margin-top:8px;gap:8px}.lobby-milestones>div>span{display:grid;grid-template-columns:22px 1fr;text-align:left;gap:4px;font-size:10px}.lobby-milestones svg{width:21px;height:21px;grid-row:1/3}.lobby-milestones small{font-size:8px;line-height:1.2}
+/* Viewport-sized play surface; long descriptions belong in scrollable dialogs. */
+html,body{height:100%;margin:0}body{overflow:hidden}#app{height:100dvh;display:flex;flex-direction:column;min-height:0}
+.topbar{height:52px;min-height:52px;padding:0 18px;gap:12px}.brand{font-size:14px}.brand small{font-size:8px}.brand-emblem{width:28px}.topbar nav button{font-size:12px;padding:8px}.profile{font-size:12px}
+body[data-phase=run] main{width:100%;max-width:none;flex:1;min-height:0;padding:10px;display:flex;flex-direction:column}
+body[data-phase=run] .quest-heading,body[data-phase=run] .journey,body[data-phase=run] .right-rail,body[data-phase=run] main>footer{display:none}
+.game-layout{display:block;flex:1;min-height:0;height:100%}.board-panel{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:58px 38px minmax(0,1fr) 58px;min-height:0;height:100%;overflow:hidden}
+.board-top{position:static;grid-row:1;grid-column:1/-1;padding:8px 16px;background:#0c202d;align-items:center}.board-top h2{font-size:20px;margin:2px 0}.board-top>div>span{display:none}.board-top .eyebrow{font-size:9px}.board-top .tag{font-size:9px}
+.run-tools{grid-row:2;grid-column:1/-1;display:flex;align-items:center;gap:10px;padding:4px 14px;background:#112d39;border-bottom:1px solid #365561;min-width:0}.run-tools>span{font-size:11px;margin-right:auto;white-space:nowrap}.run-tools button{margin:0;padding:5px 8px!important;width:auto!important;font-size:11px!important;display:flex;gap:5px;align-items:center;border:0;background:transparent;min-height:28px}.run-tools button svg{width:15px;height:15px}
+.board-scene{grid-row:3;grid-column:1;min-height:0!important;height:auto!important;background-size:100% 100%;background-position:center;overflow:hidden}.board-shade{background:linear-gradient(#03151c20,#03151c10)}.supplies{top:10px;left:12px;gap:7px}.supplies span{font-size:11px;padding:5px 8px}.map-label{bottom:10px;font-size:9px;letter-spacing:2px}.board-legend{display:none}.tile{width:clamp(20px,5%,48px);aspect-ratio:1.15}.tile svg{width:55%;height:55%}.tile small{font-size:8px}.hero-token{width:44px;height:60px}.hero-token img{width:100%;height:100%;object-fit:contain}
+.board-controls{grid-row:4;grid-column:1/-1;min-height:0;padding:7px 14px;gap:12px}.board-controls .dice{width:38px;height:38px;font-size:28px;flex-shrink:0}.roll-caption{flex:1}.roll-caption strong{font-size:12px}.roll-caption>span{display:none}.board-controls .roll{padding:10px 14px;font-size:12px;min-height:40px;width:auto}.board-controls .roll svg{width:16px}
+.board-panel:has(.battle-dock){grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}.board-panel:has(.battle-dock) .board-scene{grid-column:2}
+.battle-dock{grid-row:3;grid-column:1;padding:12px;display:flex;flex-direction:column;gap:8px;min-height:0;overflow:hidden;border:0;border-right:1px solid #64736a}.battle-heading h2{font-size:20px;margin:3px 0}.battle-heading .eyebrow{font-size:9px}.battle-dock .combat-stats{gap:12px;margin:0}.battle-dock .combat-stats strong{font-size:11px}.battle-dock .combat-stats span{font-size:11px}.battle-dock .health-bar{height:6px;margin-top:3px}.battle-dock .ultimate-status{font-size:10px;margin:0}.battle-dock .ultimate-status .progress-bar{height:4px}
+.battle-dock .battle-arena{flex:1;min-height:40px;height:auto;margin:0}.battle-dock .fighter{max-height:100%;height:95%}.battle-dock .battle-log{font-size:12px;line-height:1.4;padding:8px;margin:0;min-height:0;max-height:48px;overflow:auto}.battle-dock .auto-controls{padding:0;gap:8px;flex-wrap:nowrap;min-height:40px}.auto-controls button{min-height:36px;font-size:11px}.auto-controls .primary{color:#142733;background:linear-gradient(120deg,#eed391,#d9ad60);padding:10px 24px;flex:1;font-weight:700}.auto-status{font-size:9px}.battle-dock .battle-effects,.battle-dock .active-battle-skills{display:none}
+/* The lobby uses the same bounded shell. */
+main.lobby-main{width:100%;max-width:1500px;padding:10px 14px;flex:1;min-height:0;display:flex;flex-direction:column;gap:10px}.lobby-main .quest-heading{display:none}.lobby-grid{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(350px,1fr);gap:14px;height:auto}.hero-sanctuary{display:flex;flex-direction:column;min-height:0}.lobby-scene{flex:1;min-height:0}.hero-title{top:10px}.hero-title h2{font-size:23px;margin:4px 0}.hero-title .eyebrow{font-size:10px}.lobby-hero{height:calc(100% - 85px);width:70%;bottom:32px}.lobby-gear{inset:70px 14px 66px;grid-template-columns:65px 65px;grid-template-rows:repeat(3,minmax(0,1fr));gap:7px}.lobby-gear button{padding:4px;gap:2px;min-height:0}.lobby-gear svg{width:21px;height:21px}.lobby-gear small,.lobby-gear b{font-size:9px}.lobby-stats{bottom:9px}.lobby-stats b{font-size:20px}.lobby-wallet{padding:7px 12px;min-height:38px;font-size:11px}.lobby-actions{padding:0 9px 9px;gap:6px;flex-wrap:nowrap}.lobby-actions button{padding:9px 4px;font-size:10px;min-width:0}
+.lobby-prepare{padding:16px;min-height:0;overflow:auto}.lobby-prepare h2{font-size:23px;margin:5px 0}.lobby-prepare>p{font-size:11px;line-height:1.4}.path-choices{gap:7px;margin:12px 0}.path-choices button{padding:10px;gap:8px}.path-choices strong{font-size:13px}.path-choices small{font-size:11px;line-height:1.4;margin-top:3px}.chapter-brief{font-size:10px;margin:9px 0}.lobby-prepare label{font-size:11px}.lobby-prepare select{padding:9px;margin-top:4px}.lobby-prepare #startRun{padding:12px}.lobby-prepare>p.fine,.last-run{display:none}.lobby-prepare .sync{font-size:10px;margin-top:7px;padding:3px}
+.lobby-milestones{padding:9px 14px;margin:0}.lobby-milestones>.eyebrow{font-size:9px}.lobby-milestones>div{grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:6px}.lobby-milestones>div>span{display:flex;flex-direction:row;text-align:left;gap:6px;font-size:10px}.lobby-milestones svg{height:23px;width:23px;flex-shrink:0}.lobby-milestones small{display:none}
+.veil{padding:12px}.modal{max-height:calc(100dvh - 24px);padding:24px;overscroll-behavior:contain}
+@media(max-width:700px){
+ .topbar{height:44px;min-height:44px;padding:0 10px;gap:7px}.topbar nav{gap:3px}.topbar nav button{font-size:0!important;padding:7px}.topbar nav button span{display:none}.topbar nav button svg{width:18px;height:18px}.brand{font-size:10px}.brand small{font-size:6px}.brand-emblem{width:22px}.profile{min-width:26px;width:26px;font-size:0!important;padding:0}.profile>span:not(.avatar),.profile>svg:last-child{display:none}.profile .avatar{width:26px;height:26px}
+ body[data-phase=run] main{padding:5px}.board-panel{grid-template-rows:48px 34px minmax(0,1fr) 50px}.board-top{padding:6px 10px}.board-top h2{font-size:16px}.run-tools{gap:3px;padding:3px 6px}.run-tools>span{font-size:9px}.run-tools button{font-size:10px!important;padding:4px!important}.run-tools #help{font-size:0!important}.board-controls{padding:5px 8px;gap:7px}.board-controls .roll{font-size:11px;padding:8px}.roll-caption strong{font-size:10px}.supplies{top:6px;left:6px;gap:4px}.supplies span{font-size:9px;padding:3px 4px}.supplies span svg{width:12px;height:12px}.map-label{font-size:8px;letter-spacing:1px}.hero-token{width:30px;height:42px}
+ .board-panel:has(.battle-dock){grid-template-columns:minmax(0,1fr);grid-template-rows:48px 34px minmax(0,1fr) minmax(85px,22%) 50px}.board-panel:has(.battle-dock) .board-scene{grid-column:1;grid-row:4}.board-panel:has(.battle-dock) .board-controls{grid-row:5}.board-panel:has(.battle-dock) .tile{width:18px}.board-panel:has(.battle-dock) .tile small{display:none}.board-panel:has(.battle-dock) .hero-token{width:22px;height:29px}.board-panel:has(.battle-dock) .map-label{display:none}
+ .battle-dock{padding:7px;gap:5px;border:0}.battle-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}.battle-heading h2{font-size:13px;margin:0}.battle-heading .eyebrow{font-size:8px;white-space:nowrap}.battle-dock .combat-stats strong{font-size:10px}.battle-dock .combat-stats span{font-size:10px}.battle-dock .battle-log{font-size:10px;max-height:32px;padding:4px}.battle-dock .auto-controls{min-height:34px;gap:6px}.auto-controls button{min-height:32px;font-size:10px}.auto-controls .primary{padding:8px}
+ main.lobby-main{padding:6px;gap:6px}.lobby-grid{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr) auto;gap:6px}.lobby-prepare{padding:8px 10px;overflow:visible}.lobby-prepare>.panel-label,.lobby-prepare>h2,.lobby-prepare>p,.chapter-brief,.lobby-prepare .sync{display:none}.path-choices{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin:0 0 6px}.path-choices button{padding:7px 4px;justify-content:center;gap:4px}.path-choices button>svg{width:14px;height:14px}.path-choices button>svg:last-child:not(:first-child){display:none}.path-choices strong{font-size:10px}.path-choices small{display:none}.lobby-prepare label{font-size:10px}.lobby-prepare select{padding:6px;margin:3px 0 5px;font-size:12px}.lobby-prepare #startRun{padding:9px;min-height:38px;font-size:12px}.lobby-milestones{padding:6px 8px}.lobby-milestones>.eyebrow,.lobby-milestones strong{display:none}.lobby-milestones>div{margin:0;gap:8px;justify-items:center}.lobby-milestones svg{width:18px;height:18px}
+ .hero-title h2{font-size:18px}.hero-title .eyebrow{font-size:8px}.lobby-hero{height:calc(100% - 63px);bottom:25px}.lobby-gear{inset:53px 10px 49px;grid-template-columns:49px 49px;gap:4px}.lobby-gear svg{width:16px;height:16px}.lobby-gear small,.lobby-gear b{font-size:8px}.lobby-stats{gap:17px;bottom:5px}.lobby-stats b{font-size:16px}.lobby-stats>span{font-size:9px}.lobby-wallet{min-height:28px;padding:4px 9px;font-size:9px}.lobby-wallet .icon-button{width:25px;height:25px}.lobby-actions{padding:0 6px 6px}.lobby-actions button{font-size:9px;padding:7px 3px;gap:3px}.lobby-actions button svg{width:14px;height:14px}.modal{padding:18px}.modal h2{font-size:22px}
 }
-@media(max-width:950px){
- .lobby-main{padding-top:16px}.lobby-main .quest-heading{margin-bottom:16px}.lobby-main .quest-heading h1{font-size:24px}
- .lobby-scene{min-height:340px}.lobby-hero{height:260px;bottom:35px}.hero-title{top:12px}.hero-title h2{font-size:23px;margin:5px 0}
- .lobby-gear{inset:73px 14px 66px;grid-template-columns:65px 65px;grid-template-rows:repeat(3,minmax(0,1fr));gap:6px}.lobby-gear button{padding:4px;gap:2px;min-height:0}.lobby-gear svg{width:21px;height:21px}.lobby-gear small,.lobby-gear b{font-size:9px}.lobby-stats{bottom:9px}
- .lobby-actions button{padding:10px 5px}.lobby-grid{gap:14px}.lobby-prepare{padding:18px}
+@media(max-height:500px) and (min-width:701px){.lobby-milestones{display:none}.lobby-prepare{padding:8px}.lobby-prepare>h2,.lobby-prepare>p,.lobby-prepare>.panel-label,.chapter-brief,.lobby-prepare .sync{display:none}.path-choices{margin:0 0 5px;gap:4px}.path-choices button{padding:6px}.path-choices small{font-size:9px}.lobby-prepare select{padding:6px}.lobby-prepare #startRun{padding:8px}.battle-heading h2{font-size:14px}.battle-dock{padding:6px;gap:4px}.battle-dock .battle-log{max-height:25px;font-size:10px}.board-panel{grid-template-rows:44px 32px minmax(0,1fr) 48px}}
+@media(max-height:500px) and (min-width:701px){
+ .topbar{height:38px;min-height:38px}.board-panel{grid-template-rows:38px 28px minmax(0,1fr) 42px}.board-top h2{font-size:15px}.board-top .eyebrow{font-size:8px}.board-top{padding:3px 10px}
+ .battle-heading{display:flex;align-items:center;gap:8px}.battle-heading h2{font-size:13px;margin:0}.battle-heading .eyebrow{font-size:8px}.battle-dock .battle-log{display:none}.battle-dock .combat-stats strong{display:none}.battle-dock .auto-controls{min-height:28px}.battle-dock .auto-controls button{min-height:28px;padding:5px 10px}.battle-dock .battle-arena{min-height:30px}
 }
-@media(min-width:951px) and (max-height:900px){
- main:has(.game-layout){padding:12px 2% 0}
- main:has(.game-layout) .quest-heading{margin-bottom:12px}
- main:has(.game-layout) .quest-heading h1{font-size:25px;margin:4px 0}
- main:has(.game-layout) .quest-heading p{margin:4px 0;font-size:12px}
- .game-layout{height:calc(100dvh - 182px);min-height:390px}
- .game-layout>.journey,.game-layout>.right-rail{min-height:0;overflow:auto}
- .board-panel{min-height:0;height:100%}.board-top{padding:12px 16px}.board-top h2{font-size:23px;margin:4px 0}
- .board-scene{min-height:0}.board-controls{padding:12px;gap:9px}.board-controls .roll-caption{font-size:12px}.board-controls .roll-caption>span{display:none}.board-controls .roll{padding:12px;font-size:12px}
- .board-panel:has(.battle-dock){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto}
- .board-panel:has(.battle-dock) .board-top,.board-panel:has(.battle-dock) .board-controls{grid-column:1/-1}
- .board-panel:has(.battle-dock) .board-scene{height:100%;min-height:0}
- .battle-dock{padding:10px;overflow:auto;min-height:0}.battle-dock h2{font-size:16px;margin:5px 0 9px}.battle-dock .battle-arena{height:110px;min-height:110px;margin:8px 0}.battle-dock .fighter{max-height:100px}.battle-dock .combat-stats{gap:6px}.battle-dock .combat-stats strong{font-size:10px}.battle-dock .combat-stats span{font-size:10px}
- .battle-dock .battle-log{font-size:11px;padding:8px;margin:7px 0}.battle-dock .fine:last-child{display:none}.battle-dock .auto-controls{gap:4px;flex-wrap:wrap}.battle-dock .auto-controls button{font-size:10px;padding:6px}.battle-dock .auto-status{font-size:9px}
-}
-@media(min-width:951px) and (max-height:900px){
- .lobby-main .quest-heading .eyebrow{display:none}
- .lobby-main .quest-heading h1{line-height:1.2;margin:0 0 4px}
- .lobby-main .quest-heading p{line-height:1.25;margin:0}
- .lobby-main .quest-heading{min-height:54px}
- .lobby-grid{height:calc(100dvh - 242px)}
- .lobby-hero{height:calc(100% - 94px)}
-}
+@media(max-width:700px) and (max-height:650px){.battle-dock .battle-log{display:none}.hero-title h2{font-size:15px}.lobby-gear{inset:43px 8px 39px}.lobby-gear small{display:none}.lobby-gear button{max-height:45px;align-self:center}.lobby-hero{height:calc(100% - 48px);bottom:20px}}
