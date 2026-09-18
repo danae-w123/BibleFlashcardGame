@@ -1,0 +1,5179 @@
+{
+  "questions": [
+    {
+      "id": "John 1-2-17",
+      "kind": "G",
+      "prompt": "Whom did Andrew bring to Jesus?",
+      "answer": "(His brother) Simon",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-90",
+      "kind": "G",
+      "prompt": "Who said to Philip, \"Follow me.\"?",
+      "answer": "Jesus",
+      "reference": "John 1:43",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-151",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 40, who was one of the two who heard what John had said?",
+      "answer": "Andrew (Simon Peter's brother)",
+      "reference": "John 1:40",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-296",
+      "kind": "G",
+      "prompt": "Who confessed freely, \"I am not the Messiah.\"?",
+      "answer": "John",
+      "reference": "John 1:20",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-369",
+      "kind": "G",
+      "prompt": "How many stone water jars stood nearby?",
+      "answer": "Six",
+      "reference": "John 2:6",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-433",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 3, what was gone?",
+      "answer": "The wine",
+      "reference": "John 2:3",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-516",
+      "kind": "X",
+      "prompt": "Without whom was nothing made that has been made?",
+      "answer": "The Word [OR Jesus]",
+      "reference": "John 1:3",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-606",
+      "kind": "V",
+      "prompt": "Finish this verse: \"In the beginning was the…\"",
+      "answer": "…Word, and the Word was with God, and the Word was God.",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-731",
+      "kind": "G",
+      "prompt": "In place of what have we all received grace?",
+      "answer": "Grace already given",
+      "reference": "John 1:16",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-817",
+      "kind": "G",
+      "prompt": "Who was performing signs in Jerusalem at the Passover Festival?",
+      "answer": "Jesus",
+      "reference": "John 2:23",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-909",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 14, what did the Word become?",
+      "answer": "Flesh",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1003",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and about whom: \"We have found the Messiah.\"?",
+      "answer": "Andrew said it to his brother Simon Peter, about Jesus",
+      "reference": "John 1:41",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1168",
+      "kind": "G",
+      "prompt": "To whom did Jesus' mother say, \"They have no more wine.\"?",
+      "answer": "Jesus",
+      "reference": "John 2:3",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1253",
+      "kind": "G",
+      "prompt": "Who was in the beginning?",
+      "answer": "The Word (Jesus)",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1317",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 12, to where did he go down?",
+      "answer": "Capernaum",
+      "reference": "John 2:12",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1414",
+      "kind": "G",
+      "prompt": "Whom did John see come down from heaven as a dove and remain on Jesus?",
+      "answer": "The Spirit",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1518",
+      "kind": "G",
+      "prompt": "What did Jesus make out of cords?",
+      "answer": "A whip",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1581",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"The Word became flesh and…\"",
+      "answer": "…made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1815",
+      "kind": "G",
+      "prompt": "Who revealed his glory?",
+      "answer": "Jesus",
+      "reference": "John 2:11",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-1867",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verse 29.",
+      "answer": "The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "reference": "John 1:29",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2060",
+      "kind": "G",
+      "prompt": "Who decided the next day to leave for Galilee?",
+      "answer": "Jesus",
+      "reference": "John 1:43",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2134",
+      "kind": "G",
+      "prompt": "Who drove all from the temple courts, both sheep and cattle?",
+      "answer": "Jesus",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2222",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 5, what does the light do?",
+      "answer": "Shines in the darkness",
+      "reference": "John 1:5",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2328",
+      "kind": "G",
+      "prompt": "Who asked, \"How do you know me?\"",
+      "answer": "Nathanael",
+      "reference": "John 1:48",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2392",
+      "kind": "X",
+      "prompt": "In John, chapter 1, who came baptizing with water?",
+      "answer": "John",
+      "reference": "John 1:31",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2469",
+      "kind": "G",
+      "prompt": "Who then responded to Jesus, \"What sign can you show us to prove your authority to do all this?\"",
+      "answer": "The Jews",
+      "reference": "John 2:18",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2596",
+      "kind": "G",
+      "prompt": "From where did John see the Spirit come down as a dove?",
+      "answer": "Heaven",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2680",
+      "kind": "R",
+      "prompt": "Finish these verses and give the reference: \"Out of his fullness we…\"",
+      "answer": "…have all received grace in place of grace already given. For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "reference": "John 1:16-17",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-2914",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 15, what did he make?",
+      "answer": "A whip (out of cords)",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3015",
+      "kind": "V",
+      "prompt": "Finish these verses: \"Yet to all who did…\"",
+      "answer": "…receive him, to those who believed in his name, he gave the right to become children of God—children born not of natural descent, nor of human decision or a husband’s will, but born of God.",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3276",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 7, what did Jesus say to the servants?",
+      "answer": "Fill the jars with water.",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3400",
+      "kind": "G",
+      "prompt": "What testimony did Jesus not need?",
+      "answer": "Any testimony about mankind",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3485",
+      "kind": "G",
+      "prompt": "From whom did the one and only Son come?",
+      "answer": "The Father",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3559",
+      "kind": "S",
+      "prompt": "Situation question: who said it, about whom, and when: \"Here truly is an Israelite in whom there is no deceit.\"?",
+      "answer": "Jesus said it about Nathanael, when Jesus saw Nathanael approaching",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3762",
+      "kind": "G",
+      "prompt": "Who was baptizing on the other side of the Jordan?",
+      "answer": "John",
+      "reference": "John 1:28",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3840",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 7, who might believe through him?",
+      "answer": "All",
+      "reference": "John 1:7",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-3935",
+      "kind": "G",
+      "prompt": "Whom did Jesus tell, \"Now draw some out and take it to the master of the banquet.\"?",
+      "answer": "The servants",
+      "reference": "John 2:8",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4053",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verse 9.",
+      "answer": "The true light that gives light to everyone was coming into the world.",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4179",
+      "kind": "G",
+      "prompt": "Who was not the light?",
+      "answer": "John himself",
+      "reference": "John 1:8",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4236",
+      "kind": "G",
+      "prompt": "What did Jesus overturn?",
+      "answer": "The money changers' tables",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4329",
+      "kind": "G",
+      "prompt": "Who scattered the coins of the money changers and overturned their tables?",
+      "answer": "Jesus",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4431",
+      "kind": "G",
+      "prompt": "Who told Nathanael he saw him under the fig tree?",
+      "answer": "Jesus",
+      "reference": "John 1:50",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4508",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 14, where were others sitting?",
+      "answer": "At tables",
+      "reference": "John 2:14",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4606",
+      "kind": "X",
+      "prompt": "In John, chapter 1, who testified about himself that he was not the Messiah?",
+      "answer": "John (the Baptist)",
+      "reference": "John 1:19-20",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4726",
+      "kind": "G",
+      "prompt": "In whom is there no deceit?",
+      "answer": "Nathanael",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4785",
+      "kind": "G",
+      "prompt": "Who became flesh and made his dwelling among us?",
+      "answer": "The Word (Jesus)",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-4872",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"I saw you while you were still under the fig tree before Philip called you.\"?",
+      "answer": "Jesus said it to Nathanael",
+      "reference": "John 1:48",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5045",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 22, who recalled what he had said?",
+      "answer": "Jesus' disciples",
+      "reference": "John 2:22",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5154",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 2, verse 19.",
+      "answer": "Jesus answered them, “Destroy this temple, and I will raise it again in three days.”",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5295",
+      "kind": "G",
+      "prompt": "Who will see greater things than that?",
+      "answer": "Nathanael",
+      "reference": "John 1:50",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5366",
+      "kind": "G",
+      "prompt": "What has the darkness not overcome?",
+      "answer": "The light",
+      "reference": "John 1:5",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5694",
+      "kind": "G",
+      "prompt": "What did the servants fill to the brim?",
+      "answer": "The jars",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5764",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"After he was raised from…\"",
+      "answer": "…the dead, his disciples recalled what he had said. Then they believed the scripture and the words that Jesus had spoken.",
+      "reference": "John 2:22",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-5980",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 36, whom did he see passing by?",
+      "answer": "Jesus",
+      "reference": "John 1:36",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6076",
+      "kind": "G",
+      "prompt": "In whom did Jesus' disciples believe?",
+      "answer": "Jesus",
+      "reference": "John 2:11",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6142",
+      "kind": "G",
+      "prompt": "Who knew all people?",
+      "answer": "Jesus",
+      "reference": "John 2:24",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6191",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 45, of whom is Jesus of Nazareth the son?",
+      "answer": "Joseph",
+      "reference": "John 1:45",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6298",
+      "kind": "G",
+      "prompt": "Where did the Word make his dwelling?",
+      "answer": "Among us",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6367",
+      "kind": "G",
+      "prompt": "Who said to Jesus, \"They have no more wine.\"?",
+      "answer": "Jesus' mother",
+      "reference": "John 2:3",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6467",
+      "kind": "G",
+      "prompt": "Who would not entrust himself to them?",
+      "answer": "Jesus",
+      "reference": "John 2:24",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6533",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 21, what was the temple he had spoken of?",
+      "answer": "His body",
+      "reference": "John 2:21",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6874",
+      "kind": "G",
+      "prompt": "Which wine does everyone bring out first?",
+      "answer": "The choice wine",
+      "reference": "John 2:10",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-6953",
+      "kind": "G",
+      "prompt": "About whom did Jesus not need any testimony?",
+      "answer": "Mankind",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7027",
+      "kind": "X",
+      "prompt": "In John, chapter 1, who did not recognize the true light?",
+      "answer": "The world",
+      "reference": "John 1:10",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7116",
+      "kind": "G",
+      "prompt": "What has not overcome the light?",
+      "answer": "The darkness",
+      "reference": "John 1:5",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7182",
+      "kind": "G",
+      "prompt": "Before whom was he who comes after John?",
+      "answer": "John",
+      "reference": "John 1:15",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7249",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 25, what did he know?",
+      "answer": "What was in each person",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7352",
+      "kind": "G",
+      "prompt": "Who baptizes with water?",
+      "answer": "John",
+      "reference": "John 1:26",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7404",
+      "kind": "G",
+      "prompt": "Who truly is an Israelite in whom there is no deceit?",
+      "answer": "Nathanael",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7490",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 14, who made his dwelling among us?",
+      "answer": "The Word",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7593",
+      "kind": "V",
+      "prompt": "Finish these verses: \"Out of his fullness we…\"",
+      "answer": "…have all received grace in place of grace already given. For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "reference": "John 1:16-17",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7805",
+      "kind": "G",
+      "prompt": "Who remembered that it is written: \"Zeal for your house will consume me.\"?",
+      "answer": "Jesus' disciples",
+      "reference": "John 2:17",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-7919",
+      "kind": "G",
+      "prompt": "To what had Jesus and his disciples also been invited?",
+      "answer": "The wedding",
+      "reference": "John 2:2",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8007",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 10, what was made through him?",
+      "answer": "The world",
+      "reference": "John 1:10",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8106",
+      "kind": "G",
+      "prompt": "Who said, \"You are Simon son of John. You will be called Cephas.\"?",
+      "answer": "Jesus",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8201",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verses 12 through 13.",
+      "answer": "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God—children born not of natural descent, nor of human decision or a husband’s will, but born of God.",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8482",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and what was the reply: \"Nazareth! Can anything good come from there?\"",
+      "answer": "Nathanael said it to Philip, and the reply was, \"Come and see.",
+      "reference": "John 1:45-46",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8684",
+      "kind": "G",
+      "prompt": "Who are born not of human decision?",
+      "answer": "Children of God",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-8780",
+      "kind": "G",
+      "prompt": "Where did a wedding take place?",
+      "answer": "At Cana in Galilee",
+      "reference": "John 2:1",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9085",
+      "kind": "G",
+      "prompt": "To whom did Jesus' mother say, \"Do whatever he tells you.\"?",
+      "answer": "The servants",
+      "reference": "John 2:5",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9178",
+      "kind": "G",
+      "prompt": "Through whom did grace and truth come?",
+      "answer": "Jesus Christ",
+      "reference": "John 1:17",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9251",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 11, who believed in Jesus?",
+      "answer": "Jesus' disciples",
+      "reference": "John 2:11",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9352",
+      "kind": "G",
+      "prompt": "To where did the servants fill the jars?",
+      "answer": "The brim",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9422",
+      "kind": "G",
+      "prompt": "Whom did the two disciples hear say, \"Look, the Lamb of God!\"?",
+      "answer": "John",
+      "reference": "John 1:36-37",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9514",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verse 1.",
+      "answer": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9648",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Nazareth! Can anything good come from there?\"",
+      "answer": "Nathanael said it to Philip",
+      "reference": "John 1:46",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9790",
+      "kind": "G",
+      "prompt": "Who said, \"A man who comes after me has surpassed me because he was before me.\"?",
+      "answer": "John",
+      "reference": "John 1:30",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9898",
+      "kind": "G",
+      "prompt": "What did Jesus find others exchanging in the temple courts?",
+      "answer": "Money",
+      "reference": "John 2:14",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-9986",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 1, what is in Galilee?",
+      "answer": "Cana",
+      "reference": "John 2:1",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10071",
+      "kind": "G",
+      "prompt": "Who found others sitting at tables exchanging money in the temple courts?",
+      "answer": "Jesus",
+      "reference": "John 2:14",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10173",
+      "kind": "G",
+      "prompt": "Who saw Nathanael approaching?",
+      "answer": "Jesus",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10232",
+      "kind": "V",
+      "prompt": "Finish this verse: \"The true light that gives…\"",
+      "answer": "…light to everyone was coming into the world.",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10349",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 8, what was he himself not?",
+      "answer": "The light",
+      "reference": "John 1:8",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10444",
+      "kind": "G",
+      "prompt": "Who saw the two disciples following and asked, \"What do you want?\"",
+      "answer": "Jesus",
+      "reference": "John 1:38",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10539",
+      "kind": "X",
+      "prompt": "In John, chapter 1, through whom might all believe?",
+      "answer": "John",
+      "reference": "John 1:6-7",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10619",
+      "kind": "G",
+      "prompt": "What will Simon be called?",
+      "answer": "Cephas",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10675",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 29, when did John see Jesus coming toward him?",
+      "answer": "The next day",
+      "reference": "John 1:29",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10812",
+      "kind": "G",
+      "prompt": "Whom did the two disciples follow when they heard John say, \"Look, the Lamb of God!\"",
+      "answer": "Jesus",
+      "reference": "John 1:37",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-10924",
+      "kind": "V",
+      "prompt": "Finish this verse: \"The next day John saw…\"",
+      "answer": "…Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "reference": "John 1:29",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11087",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 19, whom did the Jewish leaders in Jerusalem send?",
+      "answer": "Priests and Levites",
+      "reference": "John 1:19",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11215",
+      "kind": "G",
+      "prompt": "Of what descent are children of God not born?",
+      "answer": "Natural",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11293",
+      "kind": "G",
+      "prompt": "Out of what did Jesus make a whip?",
+      "answer": "Cords",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11355",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 12, where did he, his mother and brothers and his disciples stay for a few days?",
+      "answer": "Capernaum",
+      "reference": "John 2:12",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11503",
+      "kind": "G",
+      "prompt": "Who did here in Cana of Galilee the first of the signs through which he revealed his glory?",
+      "answer": "Jesus",
+      "reference": "John 2:11",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11622",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verses 16 through 17.",
+      "answer": "Out of his fullness we have all received grace in place of grace already given. For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "reference": "John 1:16-17",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11854",
+      "kind": "G",
+      "prompt": "Who made a whip out of cords?",
+      "answer": "Jesus",
+      "reference": "John 2:15",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11911",
+      "kind": "G",
+      "prompt": "When was the Word?",
+      "answer": "In the beginning",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-11968",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"The next day John saw…\"",
+      "answer": "…Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "reference": "John 1:29",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12155",
+      "kind": "G",
+      "prompt": "On whom did John see the Spirit remain?",
+      "answer": "Jesus",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12223",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"I baptize with water, but among you stands one you do not know.\"?",
+      "answer": "John said it to the Pharisees who had been sent",
+      "reference": "John 1:26",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12406",
+      "kind": "G",
+      "prompt": "Where does the light shine?",
+      "answer": "In the darkness",
+      "reference": "John 1:5",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12471",
+      "kind": "G",
+      "prompt": "What will zeal for your house do?",
+      "answer": "Consume me",
+      "reference": "John 2:17",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12538",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 10, what did the world not do?",
+      "answer": "Recognize him",
+      "reference": "John 1:10",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12641",
+      "kind": "X",
+      "prompt": "Who was with God in the beginning?",
+      "answer": "The Word [OR Jesus]",
+      "reference": "John 1:2",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12717",
+      "kind": "G",
+      "prompt": "Who saw Nathanael while he was still under the fig tree before Philip called him?",
+      "answer": "Jesus",
+      "reference": "John 1:48",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12827",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 13, who went up to Jerusalem when it was almost time for the Jewish Passover?",
+      "answer": "Jesus",
+      "reference": "John 2:13",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-12969",
+      "kind": "G",
+      "prompt": "Who told the servants, \"Now draw some out and take it to the master of the banquet.\"?",
+      "answer": "Jesus",
+      "reference": "John 2:8",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13101",
+      "kind": "G",
+      "prompt": "What does \"Rabbi\" mean?",
+      "answer": "Teacher",
+      "reference": "John 1:38",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13156",
+      "kind": "G",
+      "prompt": "Of whom are children of God born?",
+      "answer": "God",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13343",
+      "kind": "G",
+      "prompt": "Who brought Simon to Jesus?",
+      "answer": "Andrew",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13399",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 4, what has not yet come?",
+      "answer": "My (Jesus') hour",
+      "reference": "John 2:4",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13498",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"In the beginning was the…\"",
+      "answer": "…Word, and the Word was with God, and the Word was God.",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13646",
+      "kind": "G",
+      "prompt": "What had been turned into wine?",
+      "answer": "The water",
+      "reference": "John 2:9",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13708",
+      "kind": "G",
+      "prompt": "Who went down to Capernaum with his mother and brothers and his disciples?",
+      "answer": "Jesus",
+      "reference": "John 2:12",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13810",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 24, whom did Jesus know?",
+      "answer": "All people",
+      "reference": "John 2:24",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-13903",
+      "kind": "G",
+      "prompt": "Whom did priests and Levites ask, \"Then who are you? Are you Elijah?\"",
+      "answer": "John",
+      "reference": "John 1:21",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14000",
+      "kind": "G",
+      "prompt": "When does everyone bring out the choice wine?",
+      "answer": "First",
+      "reference": "John 2:10",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14074",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 43, what did Jesus say to Philip?",
+      "answer": "Follow me.",
+      "reference": "John 1:43",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14179",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"We have found the Messiah.\"?",
+      "answer": "Andrew said it to his brother Simon Peter",
+      "reference": "John 1:41",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14319",
+      "kind": "G",
+      "prompt": "Who will raise this temple again in three days?",
+      "answer": "Jesus",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14395",
+      "kind": "G",
+      "prompt": "What has been made without the Word?",
+      "answer": "Nothing",
+      "reference": "John 1:3",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14461",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 40, whom had Andrew followed?",
+      "answer": "Jesus",
+      "reference": "John 1:40",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14555",
+      "kind": "G",
+      "prompt": "Whom has no one ever seen?",
+      "answer": "God",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14608",
+      "kind": "X",
+      "prompt": "Two-part answer: which names mean \"rock\"?",
+      "answer": "1) Cephas; 2) Peter",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-14692",
+      "kind": "G",
+      "prompt": "What took place on the third day at Cana in Galilee?",
+      "answer": "A wedding",
+      "reference": "John 2:1",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15076",
+      "kind": "G",
+      "prompt": "To whom did Jesus say, \"Fill the jars with water.\"?",
+      "answer": "The servants",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15161",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 23, what did many people see?",
+      "answer": "The signs he was performing",
+      "reference": "John 2:23",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15276",
+      "kind": "G",
+      "prompt": "Who asked, \"Nazareth! Can anything good come from there?\"",
+      "answer": "Nathanael",
+      "reference": "John 1:46",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15365",
+      "kind": "X",
+      "prompt": "In John, chapter 1, on whom did the Spirit remain?",
+      "answer": "Jesus",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15443",
+      "kind": "G",
+      "prompt": "Whom has the one and only Son made known?",
+      "answer": "God",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15658",
+      "kind": "G",
+      "prompt": "With whom is the one and only Son in closest relationship?",
+      "answer": "The Father",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15749",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 15, who testified concerning him?",
+      "answer": "John",
+      "reference": "John 1:15",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15845",
+      "kind": "G",
+      "prompt": "What did the Word make among us?",
+      "answer": "His dwelling",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-15912",
+      "kind": "G",
+      "prompt": "To whom does the true light give light?",
+      "answer": "Everyone",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16156",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 4, what was that life?",
+      "answer": "The light of all mankind",
+      "reference": "John 1:4",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16261",
+      "kind": "G",
+      "prompt": "Who said to the servants, \"Fill the jars with water.\"?",
+      "answer": "Jesus",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16343",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 17, what will consume me?",
+      "answer": "Zeal for your house",
+      "reference": "John 2:17",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16447",
+      "kind": "G",
+      "prompt": "Who knew what was in each person?",
+      "answer": "Jesus",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16509",
+      "kind": "V",
+      "prompt": "Finish this verse: \"The Word became flesh and…\"",
+      "answer": "…made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16720",
+      "kind": "G",
+      "prompt": "With what does John baptize?",
+      "answer": "Water",
+      "reference": "John 1:26",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16777",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and in reply to what: \"Are you the Prophet?\"",
+      "answer": "Priests and Levites said it to John, in reply to, \"I am not.",
+      "reference": "John 1:21",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-16948",
+      "kind": "G",
+      "prompt": "Who filled the jars to the brim?",
+      "answer": "The servants",
+      "reference": "John 2:7",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17015",
+      "kind": "G",
+      "prompt": "Who found people selling cattle, sheep and doves in the temple courts?",
+      "answer": "Jesus",
+      "reference": "John 2:14",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17133",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 10, what have you saved till now?",
+      "answer": "The best wine",
+      "reference": "John 2:10",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17238",
+      "kind": "G",
+      "prompt": "Who came only as witness to the light?",
+      "answer": "John",
+      "reference": "John 1:8",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17302",
+      "kind": "G",
+      "prompt": "Whom did Philip call?",
+      "answer": "Nathanael",
+      "reference": "John 1:48",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17355",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"You believe because I told you I saw you under the fig tree. You will see greater things than that.\"?",
+      "answer": "Jesus said it to Nathanael",
+      "reference": "John 1:50",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17552",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 25, what did he not need?",
+      "answer": "Any testimony about mankind",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17663",
+      "kind": "G",
+      "prompt": "Where did six stone water jars stand?",
+      "answer": "Nearby",
+      "reference": "John 2:6",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17844",
+      "kind": "G",
+      "prompt": "Who has made God known?",
+      "answer": "The one and only Son",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17910",
+      "kind": "G",
+      "prompt": "Who is the king of Israel?",
+      "answer": "Jesus",
+      "reference": "John 1:49",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-17964",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 18, who is himself God?",
+      "answer": "The one and only Son",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18067",
+      "kind": "G",
+      "prompt": "What will Jesus raise again in three days?",
+      "answer": "This temple",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18270",
+      "kind": "G",
+      "prompt": "When will Jesus raise this temple again?",
+      "answer": "In three days",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18347",
+      "kind": "X",
+      "prompt": "In John, chapter 1, from whom was John sent?",
+      "answer": "God",
+      "reference": "John 1:6",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18417",
+      "kind": "G",
+      "prompt": "Who replied, \"Woman, why do you involve me? My hour has not yet come.\"?",
+      "answer": "Jesus",
+      "reference": "John 2:4",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18516",
+      "kind": "G",
+      "prompt": "Whom did the master of the banquet call aside?",
+      "answer": "The bridegroom",
+      "reference": "John 2:9",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18599",
+      "kind": "R",
+      "prompt": "Finish these verses and give the reference: \"Yet to all who did…\"",
+      "answer": "…receive him, to those who believed in his name, he gave the right to become children of God—children born not of natural descent, nor of human decision or a husband’s will, but born of God.",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-18883",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 43, what did Jesus decide the next day?",
+      "answer": "To leave for Galilee",
+      "reference": "John 1:43",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19002",
+      "kind": "G",
+      "prompt": "What have we all received in place of grace already given?",
+      "answer": "Grace",
+      "reference": "John 1:16",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19089",
+      "kind": "G",
+      "prompt": "Out of what have we all received grace in place of grace already given?",
+      "answer": "His fullness",
+      "reference": "John 1:16",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19216",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"We have found the one Moses wrote about in the Law, and about whom the prophets also wrote—Jesus of Nazareth, the son of Joseph.\"?",
+      "answer": "Philip said it to Nathanael",
+      "reference": "John 1:45",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19443",
+      "kind": "X",
+      "prompt": "Whose children are not born of human decision?",
+      "answer": "God's",
+      "reference": "John 1:13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19517",
+      "kind": "G",
+      "prompt": "What, when translated, is Peter?",
+      "answer": "Cephas",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19812",
+      "kind": "G",
+      "prompt": "Who said to those who sold doves, \"Get these out of here! Stop turning my Father’s house into a market!\"?",
+      "answer": "Jesus",
+      "reference": "John 2:16",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19945",
+      "kind": "G",
+      "prompt": "Who has ever seen God?",
+      "answer": "No one",
+      "reference": "John 1:18",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-19996",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 1, what took place?",
+      "answer": "A wedding",
+      "reference": "John 2:1",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20082",
+      "kind": "G",
+      "prompt": "Into what had the water been turned?",
+      "answer": "Wine",
+      "reference": "John 2:9",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20144",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 17, what came through Jesus Christ?",
+      "answer": "Grace and truth",
+      "reference": "John 1:17",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20253",
+      "kind": "G",
+      "prompt": "Who did not need any testimony about mankind?",
+      "answer": "Jesus",
+      "reference": "John 2:25",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20444",
+      "kind": "G",
+      "prompt": "Who are born not of natural descent?",
+      "answer": "Children of God",
+      "reference": "John 1:12-13",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20522",
+      "kind": "G",
+      "prompt": "Who brings out the cheaper wine after the guests have had too much to drink?",
+      "answer": "Everyone",
+      "reference": "John 2:10",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-20911",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 19, what will I raise?",
+      "answer": "This temple",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-21004",
+      "kind": "G",
+      "prompt": "Who replied, \"I baptize with water, but among you stands one you do not know.\"?",
+      "answer": "John",
+      "reference": "John 1:26",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-21111",
+      "kind": "G",
+      "prompt": "Who will see heaven open, and the angels of God ascending and descending on the Son of Man?",
+      "answer": "Nathanael",
+      "reference": "John 1:51",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-21235",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 8, as what did he come only?",
+      "answer": "A witness to the light",
+      "reference": "John 1:8",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-21344",
+      "kind": "G",
+      "prompt": "When was the Word with God?",
+      "answer": "In the beginning",
+      "reference": "John 1:2",
+      "chapter": 1,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-2-21410",
+      "kind": "G",
+      "prompt": "Who answered the Jews, \"Destroy this temple, and I will raise it again in three days.\"?",
+      "answer": "Jesus",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-2.rtf"
+    },
+    {
+      "id": "John 1-3-250",
+      "kind": "G",
+      "prompt": "Whose wrath remains on whoever rejects the Son?",
+      "answer": "God's",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-325",
+      "kind": "X",
+      "prompt": "In John, chapter 1, through whom were all things made?",
+      "answer": "The Word [OR Jesus]",
+      "reference": "John 1:3",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1122",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 24, who had been sent?",
+      "answer": "The Pharisees",
+      "reference": "John 1:24",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1300",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 19, what has come into the world?",
+      "answer": "Light",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1495",
+      "kind": "G",
+      "prompt": "Who spent some time with his disciples in the Judean countryside?",
+      "answer": "Jesus",
+      "reference": "John 3:22",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1753",
+      "kind": "G",
+      "prompt": "Whom did God send into the world?",
+      "answer": "His Son",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1817",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 40, who had followed Jesus?",
+      "answer": "Andrew (Simon Peter's brother)",
+      "reference": "John 1:40",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-1934",
+      "kind": "G",
+      "prompt": "With whom was the Word in the beginning?",
+      "answer": "God",
+      "reference": "John 1:2",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-2221",
+      "kind": "G",
+      "prompt": "What is near Salim?",
+      "answer": "Aenon",
+      "reference": "John 3:23",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-2561",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 31, what is the one who comes from above?",
+      "answer": "Above all",
+      "reference": "John 3:31",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-2751",
+      "kind": "X",
+      "prompt": "In John, chapter 1, to whom might Jesus be revealed?",
+      "answer": "Israel",
+      "reference": "John 1:31",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-3119",
+      "kind": "G",
+      "prompt": "What shall whoever believes in God's one and only Son not do?",
+      "answer": "Perish",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-3677",
+      "kind": "G",
+      "prompt": "Without what does God give the Spirit?",
+      "answer": "Limit",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-4465",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 14, what must the Son of Man be?",
+      "answer": "Lifted up",
+      "reference": "John 3:14",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-4634",
+      "kind": "V",
+      "prompt": "Finish this verse: \"Whoever believes in the Son…\"",
+      "answer": "…has eternal life, but whoever rejects the Son will not see life, for God’s wrath remains on them.",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-4899",
+      "kind": "G",
+      "prompt": "To whom does the bride belong?",
+      "answer": "The bridegroom",
+      "reference": "John 3:29",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-5218",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 2, verse 22.",
+      "answer": "After he was raised from the dead, his disciples recalled what he had said. Then they believed the scripture and the words that Jesus had spoken.",
+      "reference": "John 2:22",
+      "chapter": 2,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-5690",
+      "kind": "G",
+      "prompt": "Who gives birth to spirit?",
+      "answer": "The Spirit",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-5749",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"Jesus answered them, “Destroy this…\"",
+      "answer": "…temple, and I will raise it again in three days.”",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-5904",
+      "kind": "G",
+      "prompt": "Where is Aenon?",
+      "answer": "Near Salim",
+      "reference": "John 3:23",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-6027",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 20, who am I not?",
+      "answer": "The Messiah",
+      "reference": "John 1:20",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-6311",
+      "kind": "G",
+      "prompt": "Who has spoken to Nicodemus of earthly things?",
+      "answer": "Jesus",
+      "reference": "John 3:12",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-6474",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 35, with whom was John there again the next day?",
+      "answer": "Two of his disciples",
+      "reference": "John 1:35",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-7137",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"For God so loved the…\"",
+      "answer": "…world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-7337",
+      "kind": "G",
+      "prompt": "Who should not be surprised at Jesus' saying, \"You must be born again.\"?",
+      "answer": "Nicodemus",
+      "reference": "John 3:7",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-7511",
+      "kind": "V",
+      "prompt": "Finish these verses: \"Jesus answered, “Very truly I…\"",
+      "answer": "…tell you, no one can enter the kingdom of God unless they are born of water and the Spirit. Flesh gives birth to flesh, but the Spirit gives birth to spirit.",
+      "reference": "John 3:5-6",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-7749",
+      "kind": "G",
+      "prompt": "Who can enter the kingdom of God unless they are born of water and the Spirit?",
+      "answer": "No one",
+      "reference": "John 3:5",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-7856",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 19, what were evil?",
+      "answer": "People's deeds",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8146",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verse 3.",
+      "answer": "Jesus replied, “Very truly I tell you, no one can see the kingdom of God unless they are born again.”",
+      "reference": "John 3:3",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8303",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 46, who said, \"Come and see.\"?",
+      "answer": "Philip",
+      "reference": "John 1:46",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8469",
+      "kind": "G",
+      "prompt": "What was given through Moses?",
+      "answer": "The law",
+      "reference": "John 1:17",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8633",
+      "kind": "G",
+      "prompt": "What blows wherever it pleases?",
+      "answer": "The wind",
+      "reference": "John 3:8",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8694",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 37, who heard him say this?",
+      "answer": "The two disciples",
+      "reference": "John 1:37",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-8920",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and about whom: \"I have seen and I testify that this is God’s Chosen One.\"?",
+      "answer": "John said it about Jesus",
+      "reference": "John 1:34",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9075",
+      "kind": "G",
+      "prompt": "Who did not send his Son into the world to condemn the world?",
+      "answer": "God",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9162",
+      "kind": "G",
+      "prompt": "What did Moses lift up in the wilderness?",
+      "answer": "The snake",
+      "reference": "John 3:14",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9324",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 10, where was he?",
+      "answer": "In the world",
+      "reference": "John 1:10",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9567",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 11, what did Jesus reveal?",
+      "answer": "His glory",
+      "reference": "John 2:11",
+      "chapter": 2,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9764",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verse 21.",
+      "answer": "But whoever lives by the truth comes into the light, so that it may be seen plainly that what they have done has been done in the sight of God.",
+      "reference": "John 3:21",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-9965",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 35, whom does the Father love?",
+      "answer": "The Son",
+      "reference": "John 3:35",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-10062",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"For God did not send…\"",
+      "answer": "…his Son into the world to condemn the world, but to save the world through him.",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-10233",
+      "kind": "G",
+      "prompt": "Who said, \"Look, the Lamb of God, who takes away the sin of the world!\"?",
+      "answer": "John",
+      "reference": "John 1:29",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-10407",
+      "kind": "V",
+      "prompt": "Finish these verses: \"Just as Moses lifted up…\"",
+      "answer": "…the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes may have eternal life in him.”",
+      "reference": "John 3:14-15",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-10824",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 35, who loves the Son?",
+      "answer": "The Father",
+      "reference": "John 3:35",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-10915",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and what was the reply: \"Are you the Prophet?\"",
+      "answer": "Priests and Levites said it to John, and the reply was, \"No.",
+      "reference": "John 1:21",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-11087",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 31, with what did I come baptizing?",
+      "answer": "Water",
+      "reference": "John 1:31",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-11186",
+      "kind": "G",
+      "prompt": "Who told his brother Simon, \"We have found the Messiah.\"?",
+      "answer": "Andrew",
+      "reference": "John 1:41",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-11323",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"The true light that gives…\"",
+      "answer": "…light to everyone was coming into the world.",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-11462",
+      "kind": "G",
+      "prompt": "To what does flesh give birth?",
+      "answer": "Flesh",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-12635",
+      "kind": "G",
+      "prompt": "Who belongs to the bridegroom?",
+      "answer": "The bride",
+      "reference": "John 3:29",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-12698",
+      "kind": "G",
+      "prompt": "Who also was baptizing at Aenon near Salim?",
+      "answer": "John",
+      "reference": "John 3:23",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-12788",
+      "kind": "G",
+      "prompt": "From what town was Philip?",
+      "answer": "Bethsaida",
+      "reference": "John 1:44",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-13272",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 22, who went out into the Judean countryside?",
+      "answer": "Jesus and his disciples",
+      "reference": "John 3:22",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-13466",
+      "kind": "X",
+      "prompt": "Whose children are not born of a husband's will?",
+      "answer": "God's",
+      "reference": "John 1:13",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-13590",
+      "kind": "G",
+      "prompt": "What will whoever rejects the Son not see?",
+      "answer": "Life",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-13835",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 16, what have we all received?",
+      "answer": "Grace",
+      "reference": "John 1:16",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-13930",
+      "kind": "G",
+      "prompt": "Into where has no one except the one who came from heaven ever gone?",
+      "answer": "Heaven",
+      "reference": "John 3:13",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-14193",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 32, who came down from heaven?",
+      "answer": "The Spirit",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-14636",
+      "kind": "G",
+      "prompt": "Who lifted up the snake in the wilderness?",
+      "answer": "Moses",
+      "reference": "John 3:14",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-14928",
+      "kind": "G",
+      "prompt": "To whom has Jesus spoken of earthly things?",
+      "answer": "Nicodemus",
+      "reference": "John 3:12",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-15003",
+      "kind": "G",
+      "prompt": "Who said, \"I am not the Messiah but am sent ahead of him.\"?",
+      "answer": "John",
+      "reference": "John 3:28",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-15214",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 6, what does flesh do?",
+      "answer": "Gives birth to flesh",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-15314",
+      "kind": "G",
+      "prompt": "Who came as a witness to testify concerning that light?",
+      "answer": "John",
+      "reference": "John 1:7",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-15565",
+      "kind": "G",
+      "prompt": "What shines in the darkness?",
+      "answer": "The light",
+      "reference": "John 1:5",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-15978",
+      "kind": "G",
+      "prompt": "Who has placed everything in the Son's hands?",
+      "answer": "The Father",
+      "reference": "John 3:35",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-16057",
+      "kind": "G",
+      "prompt": "Who said to the servants, \"Do whatever he tells you.\"?",
+      "answer": "Jesus' mother",
+      "reference": "John 2:5",
+      "chapter": 2,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-16147",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and about whom: \"Here truly is an Israelite in whom there is no deceit.\"?",
+      "answer": "Jesus said it about Nathanael",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-16613",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 6, whose name was John?",
+      "answer": "A man sent from God",
+      "reference": "John 1:6",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-16878",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 1, who was with God?",
+      "answer": "The Word",
+      "reference": "John 1:1",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-17162",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 19, what were people's deeds?",
+      "answer": "Evil",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-17668",
+      "kind": "G",
+      "prompt": "What did people love instead of light?",
+      "answer": "Darkness",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-17924",
+      "kind": "G",
+      "prompt": "To what does the Spirit give birth?",
+      "answer": "Spirit",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-18341",
+      "kind": "X",
+      "prompt": "Which Old Testament prophet said, \"I am the voice of one calling in the wilderness, 'Make straight the way for the Lord.'\"?",
+      "answer": "Isaiah",
+      "reference": "John 1:23",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-18494",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 3, what were made through him?",
+      "answer": "All things",
+      "reference": "John 1:3",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-18593",
+      "kind": "G",
+      "prompt": "Above whom is the one who comes from heaven?",
+      "answer": "All",
+      "reference": "John 3:31",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-18664",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Rabbi, you are the Son of God; you are the king of Israel.\"?",
+      "answer": "Nathanael said it to Jesus",
+      "reference": "John 1:49",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-19087",
+      "kind": "G",
+      "prompt": "Who so loved the world that he gave his one and only Son?",
+      "answer": "God",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-19401",
+      "kind": "G",
+      "prompt": "Who testifies that this is God’s Chosen One?",
+      "answer": "John",
+      "reference": "John 1:34",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-19704",
+      "kind": "G",
+      "prompt": "What does everyone who does evil hate?",
+      "answer": "The light",
+      "reference": "John 3:20",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-19851",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 10, what are you?",
+      "answer": "Israel's teacher",
+      "reference": "John 3:10",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-20487",
+      "kind": "G",
+      "prompt": "Whom does God give without limit?",
+      "answer": "The Spirit",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-20829",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 35, who was there again with two of his disciples?",
+      "answer": "John",
+      "reference": "John 1:35",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-3-21037",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 19, what was this?",
+      "answer": "John's testimony",
+      "reference": "John 1:19",
+      "chapter": 1,
+      "source": "John 1-3.rtf"
+    },
+    {
+      "id": "John 1-4-17",
+      "kind": "G",
+      "prompt": "Of what things has Jesus spoken to Nicodemus?",
+      "answer": "Earthly things",
+      "reference": "John 3:12",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-99",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 12, for how long did he, his mother and brothers and his disciples stay in Capernaum?",
+      "answer": "A few days",
+      "reference": "John 2:12",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-336",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 7, what must you be?",
+      "answer": "Born again",
+      "reference": "John 3:7",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-424",
+      "kind": "G",
+      "prompt": "What did a Samaritan woman come to draw?",
+      "answer": "Water",
+      "reference": "John 4:7",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-491",
+      "kind": "V",
+      "prompt": "Finish this verse: \"After he was raised from…\"",
+      "answer": "…the dead, his disciples recalled what he had said. Then they believed the scripture and the words that Jesus had spoken.",
+      "reference": "John 2:22",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-683",
+      "kind": "G",
+      "prompt": "Into what had Jesus turned the water?",
+      "answer": "Wine",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-853",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 51, who met him?",
+      "answer": "His servants",
+      "reference": "John 4:51",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-1502",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"How can someone be born when they are old? Surely they cannot enter a second time into their mother’s womb to be born!\"?",
+      "answer": "Nicodemus said it to Jesus",
+      "reference": "John 3:4",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-2186",
+      "kind": "X",
+      "prompt": "What does a prophet not have in his own country?",
+      "answer": "Honor",
+      "reference": "John 4:44",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-2716",
+      "kind": "X",
+      "prompt": "In John, chapter 3, whom did God so love that he gave his one and only Son?",
+      "answer": "The world",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-2823",
+      "kind": "G",
+      "prompt": "Whom did a certain royal official hear had arrived in Galilee from Judea?",
+      "answer": "Jesus",
+      "reference": "John 4:47",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-3039",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 50, who will live?",
+      "answer": "Your son",
+      "reference": "John 4:50",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-3124",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"Jesus answered her, “If you…\"",
+      "answer": "…knew the gift of God and who it is that asks you for a drink, you would have asked him and he would have given you living water.”",
+      "reference": "John 4:10",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-3676",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 47, whom did Jesus see approaching?",
+      "answer": "Nathanael",
+      "reference": "John 1:47",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-3879",
+      "kind": "G",
+      "prompt": "What has the Father placed in the Son's hands?",
+      "answer": "Everything",
+      "reference": "John 3:35",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-3959",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Indeed, the water I give them will become in them a spring of water welling up to eternal life.\"?",
+      "answer": "Jesus said it to the Samaritan woman",
+      "reference": "John 4:14",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-4324",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 1, of what was Nicodemus a member?",
+      "answer": "The Jewish ruling council",
+      "reference": "John 3:1",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-4501",
+      "kind": "G",
+      "prompt": "Who has no honor in his own country?",
+      "answer": "A prophet",
+      "reference": "John 4:44",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-4687",
+      "kind": "G",
+      "prompt": "To whom did Jesus' disciples say, \"Could someone have brought him food?\"",
+      "answer": "Each other",
+      "reference": "John 4:33",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-4859",
+      "kind": "V",
+      "prompt": "Finish this verse: \"God is spirit, and his…\"",
+      "answer": "…worshipers must worship in the Spirit and in truth.”",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5068",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 8, why had his disciples gone into the town?",
+      "answer": "To buy food",
+      "reference": "John 4:8",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5181",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Do whatever he tells you.\"?",
+      "answer": "Jesus' mother said it to the servants",
+      "reference": "John 2:5",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5411",
+      "kind": "G",
+      "prompt": "Whose brother was Andrew?",
+      "answer": "Simon Peter's",
+      "reference": "John 1:40",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5472",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 4, verses 34 through 35.",
+      "answer": "“My food,” said Jesus, “is to do the will of him who sent me and to finish his work. Don’t you have a saying, ‘It’s still four months until harvest’? I tell you, open your eyes and look at the fields! They are ripe for harvest.",
+      "reference": "John 4:34-35",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5773",
+      "kind": "X",
+      "prompt": "From which Old Testament book does the following quotation come: \"Zeal for your house will consume me.\"?",
+      "answer": "Psalms",
+      "reference": "John 2:17",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-5984",
+      "kind": "G",
+      "prompt": "Instead of what did people love darkness?",
+      "answer": "Light",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-6376",
+      "kind": "G",
+      "prompt": "Than whom had the Pharisees heard that Jesus was gaining and baptizing more disciples?",
+      "answer": "John",
+      "reference": "John 4:1",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-6634",
+      "kind": "G",
+      "prompt": "What will whoever drinks the water Jesus gives them never do?",
+      "answer": "Thirst",
+      "reference": "John 4:14",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-6744",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 30, what must I become?",
+      "answer": "Less",
+      "reference": "John 3:30",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-6924",
+      "kind": "G",
+      "prompt": "Who could perform the signs Jesus is doing if God were not with him?",
+      "answer": "No one",
+      "reference": "John 3:2",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-7373",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 4, verses 13 through 14.",
+      "answer": "Jesus answered, “Everyone who drinks this water will be thirsty again, but whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life.”",
+      "reference": "John 4:13-14",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-7766",
+      "kind": "G",
+      "prompt": "Who had given a plot of ground to his son Joseph?",
+      "answer": "Jacob",
+      "reference": "John 4:5",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-7842",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 25, when will Messiah explain everything to us?",
+      "answer": "When he comes",
+      "reference": "John 4:25",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-7962",
+      "kind": "V",
+      "prompt": "Finish this verse: \"Jesus replied, “Very truly I…\"",
+      "answer": "…tell you, no one can see the kingdom of God unless they are born again.”",
+      "reference": "John 3:3",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-8526",
+      "kind": "G",
+      "prompt": "Who stayed two days with the Samaritans?",
+      "answer": "Jesus",
+      "reference": "John 4:40",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-8887",
+      "kind": "G",
+      "prompt": "Whom would Jesus have given living water?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:10",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-9092",
+      "kind": "G",
+      "prompt": "Whose well was there?",
+      "answer": "Jacob's",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-9773",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 1, verse 14.",
+      "answer": "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+      "reference": "John 1:14",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-10152",
+      "kind": "G",
+      "prompt": "Whose disciples was it in fact who baptized?",
+      "answer": "Jesus'",
+      "reference": "John 4:2",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-10399",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 30, where did they make their way?",
+      "answer": "Toward him",
+      "reference": "John 4:30",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-10503",
+      "kind": "R",
+      "prompt": "Finish these verses and give the reference: \"Jesus answered, “Very truly I…\"",
+      "answer": "…tell you, no one can enter the kingdom of God unless they are born of water and the Spirit. Flesh gives birth to flesh, but the Spirit gives birth to spirit.",
+      "reference": "John 3:5-6",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-10854",
+      "kind": "G",
+      "prompt": "Who gave his one and only Son?",
+      "answer": "God",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-11202",
+      "kind": "G",
+      "prompt": "Whom had the Pharisees heard was gaining and baptizing more disciples than John?",
+      "answer": "Jesus",
+      "reference": "John 4:1",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-11391",
+      "kind": "X",
+      "prompt": "In John, chapter 2, by whom were stone water jars used for ceremonial washing?",
+      "answer": "The Jews",
+      "reference": "John 2:6",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12068",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 17, what did she reply?",
+      "answer": "I have no husband.",
+      "reference": "John 4:17",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12171",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Sir, you have nothing to draw with and the well is deep. Where can you get this living water?\"",
+      "answer": "The Samaritan woman said it to Jesus",
+      "reference": "John 4:11",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12372",
+      "kind": "G",
+      "prompt": "Into where was the true light that gives light to everyone coming?",
+      "answer": "The world",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12470",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 9, what did Nicodemus ask?",
+      "answer": "How can this be?",
+      "reference": "John 3:9",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12573",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verse 36.",
+      "answer": "Whoever believes in the Son has eternal life, but whoever rejects the Son will not see life, for God’s wrath remains on them.",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12756",
+      "kind": "G",
+      "prompt": "Who replied, \"A person can receive only what is given them from heaven.\"?",
+      "answer": "John",
+      "reference": "John 3:27",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-12944",
+      "kind": "G",
+      "prompt": "Who had heard that Jesus was gaining and baptizing more disciples than John?",
+      "answer": "The Pharisees",
+      "reference": "John 4:1",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-13155",
+      "kind": "V",
+      "prompt": "Finish this verse: \"For God so loved the…\"",
+      "answer": "…world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-13333",
+      "kind": "G",
+      "prompt": "Whom will you worship neither on this mountain nor in Jerusalem?",
+      "answer": "The Father",
+      "reference": "John 4:21",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-13450",
+      "kind": "G",
+      "prompt": "Who had turned the water into wine?",
+      "answer": "Jesus",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-13513",
+      "kind": "G",
+      "prompt": "Who said, \"You are Israel's teacher, and do you not understand these things?\"",
+      "answer": "Jesus",
+      "reference": "John 3:10",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-13759",
+      "kind": "G",
+      "prompt": "Who know nothing about the food that Jesus has to eat?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:32",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-14581",
+      "kind": "X",
+      "prompt": "In John, chapter 3, who accepts the one who comes from heaven's testimony?",
+      "answer": "No one",
+      "reference": "John 3:32",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-14685",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 34, whom does God give?",
+      "answer": "The Spirit",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-14778",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"It has taken forty-six years to build this temple, and you are going to raise it in three days?\"",
+      "answer": "The Jews said it to Jesus",
+      "reference": "John 2:20",
+      "chapter": 2,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15333",
+      "kind": "G",
+      "prompt": "Whose livestock also drank from the well?",
+      "answer": "Jacob's",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15405",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 18, what is quite true?",
+      "answer": "What you have just said",
+      "reference": "John 4:18",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15598",
+      "kind": "G",
+      "prompt": "Of what is the friend who attends the bridegroom full when he hears the bridegroom's voice?",
+      "answer": "Joy",
+      "reference": "John 3:29",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15799",
+      "kind": "G",
+      "prompt": "Who said to his disciples, \"I have food to eat that you know nothing about.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:32",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15904",
+      "kind": "X",
+      "prompt": "In John, chapter 1, in whom was life?",
+      "answer": "The Word [OR Jesus]",
+      "reference": "John 1:4",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-15982",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"Whoever believes in the Son…\"",
+      "answer": "…has eternal life, but whoever rejects the Son will not see life, for God’s wrath remains on them.",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-16177",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 11, to what do we testify?",
+      "answer": "What we have seen",
+      "reference": "John 3:11",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-16279",
+      "kind": "G",
+      "prompt": "What gives birth to flesh?",
+      "answer": "Flesh",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-16332",
+      "kind": "V",
+      "prompt": "Finish this verse: \"Jesus answered her, “If you…\"",
+      "answer": "…knew the gift of God and who it is that asks you for a drink, you would have asked him and he would have given you living water.”",
+      "reference": "John 4:10",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-16536",
+      "kind": "G",
+      "prompt": "What did many more become because of Jesus' words?",
+      "answer": "Believers",
+      "reference": "John 4:41",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-16804",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Unless you people see signs and wonders, you will never believe.\"?",
+      "answer": "Jesus said it to a (certain) royal official",
+      "reference": "John 4:48",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-17303",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 27, what were his disciples surprised to find him doing?",
+      "answer": "Talking with a woman",
+      "reference": "John 4:27",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-17755",
+      "kind": "G",
+      "prompt": "Whom did Jesus' disciples urge, \"Rabbi, eat something.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:31",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-17923",
+      "kind": "G",
+      "prompt": "With whom do Jews not associate?",
+      "answer": "Samaritans",
+      "reference": "John 4:9",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-18214",
+      "kind": "G",
+      "prompt": "Who drank from the well himself?",
+      "answer": "(Our father) Jacob",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-18287",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 46, what did he visit once more?",
+      "answer": "Cana (in Galilee)",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-18812",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 4, through where did he have to go?",
+      "answer": "Samaria",
+      "reference": "John 4:4",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-18999",
+      "kind": "X",
+      "prompt": "In John, chapter 4, whom did Jesus heal?",
+      "answer": "A royal official's son",
+      "reference": "John 4:50-51",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-19088",
+      "kind": "G",
+      "prompt": "Who is truthful?",
+      "answer": "God",
+      "reference": "John 3:33",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-19131",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 24, where was John put?",
+      "answer": "In prison",
+      "reference": "John 3:24",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-19372",
+      "kind": "G",
+      "prompt": "What can you not tell where it comes from or where it is going?",
+      "answer": "The wind",
+      "reference": "John 3:8",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-19758",
+      "kind": "G",
+      "prompt": "Who worship what they do not know?",
+      "answer": "You Samaritans",
+      "reference": "John 4:22",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-19850",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Yesterday, at one in the afternoon, the fever left him.\"?",
+      "answer": "The royal official's servants said it to the royal official",
+      "reference": "John 4:52",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-20495",
+      "kind": "G",
+      "prompt": "Who have done the hard work?",
+      "answer": "Others",
+      "reference": "John 4:38",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-20618",
+      "kind": "X",
+      "prompt": "What was the second sign Jesus performed?",
+      "answer": "Healing the royal official's son",
+      "reference": "John 4:54",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-20974",
+      "kind": "G",
+      "prompt": "Who welcomed Jesus when he arrived in Galilee?",
+      "answer": "The Galileans",
+      "reference": "John 4:45",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21139",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 38, what means \"Teacher\"?",
+      "answer": "Rabbi",
+      "reference": "John 1:38",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21338",
+      "kind": "G",
+      "prompt": "From what did Jacob's sons and his livestock also drink?",
+      "answer": "The well",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21426",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 3, what did he leave?",
+      "answer": "Judea",
+      "reference": "John 4:3",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21653",
+      "kind": "G",
+      "prompt": "Who was Simon Peter's brother?",
+      "answer": "Andrew",
+      "reference": "John 1:40",
+      "chapter": 1,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21713",
+      "kind": "G",
+      "prompt": "Who do not associate with Samaritans?",
+      "answer": "Jews",
+      "reference": "John 4:9",
+      "chapter": 4,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-4-21777",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 26, to whom did they come?",
+      "answer": "John",
+      "reference": "John 3:26",
+      "chapter": 3,
+      "source": "John 1-4.rtf"
+    },
+    {
+      "id": "John 1-1223",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 50, what will you see?",
+      "answer": "Greater things than that",
+      "reference": "John 1:50",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-2013",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 38, who saw them following?",
+      "answer": "Jesus",
+      "reference": "John 1:38",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-2412",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 16, what was already given?",
+      "answer": "Grace",
+      "reference": "John 1:16",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-2502",
+      "kind": "G",
+      "prompt": "What is \"Cephas\" when translated?",
+      "answer": "Peter",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-3329",
+      "kind": "G",
+      "prompt": "Who saw the Spirit come down from heaven as a dove and remain on Jesus?",
+      "answer": "John",
+      "reference": "John 1:32",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-3427",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 4, what was in him?",
+      "answer": "Life",
+      "reference": "John 1:4",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-3848",
+      "kind": "G",
+      "prompt": "Through whom was the law given?",
+      "answer": "Moses",
+      "reference": "John 1:17",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-4087",
+      "kind": "G",
+      "prompt": "What does the true light give to everyone?",
+      "answer": "Light",
+      "reference": "John 1:9",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-4748",
+      "kind": "G",
+      "prompt": "What were made through the Word?",
+      "answer": "All things",
+      "reference": "John 1:3",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-4811",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 49, of whom are you the Son?",
+      "answer": "God",
+      "reference": "John 1:49",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-5198",
+      "kind": "G",
+      "prompt": "Who, like Andrew and Peter, was from the town of Bethsaida?",
+      "answer": "Philip",
+      "reference": "John 1:44",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-5286",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 11, to what did he come?",
+      "answer": "That which was his own",
+      "reference": "John 1:11",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-6005",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and what was the reply: \"Then who are you? Are you Elijah?\"",
+      "answer": "Priests and Levites said it to John, and the reply was, \"I am not.",
+      "reference": "John 1:21",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-6212",
+      "kind": "G",
+      "prompt": "Whom has he who comes after John surpassed?",
+      "answer": "John",
+      "reference": "John 1:15",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-6443",
+      "kind": "X",
+      "prompt": "Whose children are not born of natural descent?",
+      "answer": "God's",
+      "reference": "John 1:13",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-6517",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 39, what did they spend with him?",
+      "answer": "That day",
+      "reference": "John 1:39",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-6734",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 37, who followed Jesus?",
+      "answer": "The two disciples",
+      "reference": "John 1:37",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-7393",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 2, with whom was he in the beginning?",
+      "answer": "God",
+      "reference": "John 1:2",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 1-7902",
+      "kind": "A",
+      "prompt": "According to John, chapter 1, verse 42, what will you be called?",
+      "answer": "Cephas",
+      "reference": "John 1:42",
+      "chapter": 1,
+      "source": "John 1.docx"
+    },
+    {
+      "id": "John 2-66",
+      "kind": "X",
+      "prompt": "What did the Jews say had taken forty-six years to build?",
+      "answer": "This temple",
+      "reference": "John 2:20",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-363",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 13, where did Jesus go?",
+      "answer": "Up to Jerusalem",
+      "reference": "John 2:13",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-761",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and when: \"They have no more wine.\"?",
+      "answer": "Jesus' mother said it to Jesus, when the wine was gone",
+      "reference": "John 2:3",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-1196",
+      "kind": "G",
+      "prompt": "Whose disciples had also been invited to the wedding?",
+      "answer": "Jesus'",
+      "reference": "John 2:2",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-1354",
+      "kind": "A",
+      "prompt": "According to John, chapter 2, verse 1, who was there?",
+      "answer": "Jesus' mother",
+      "reference": "John 2:1",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-1460",
+      "kind": "X",
+      "prompt": "In John, chapter 2, what was held in Jerusalem?",
+      "answer": "The Passover Festival",
+      "reference": "John 2:23",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 2-2579",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Destroy this temple, and I will raise it again in three days.\"?",
+      "answer": "Jesus said it to the Jews",
+      "reference": "John 2:19",
+      "chapter": 2,
+      "source": "John 2.rtf"
+    },
+    {
+      "id": "John 3-424",
+      "kind": "X",
+      "prompt": "In John, chapter 3, who is Israel's teacher?",
+      "answer": "Nicodemus",
+      "reference": "John 3:10",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-500",
+      "kind": "G",
+      "prompt": "What does whoever believes in the Son have?",
+      "answer": "Eternal life",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-761",
+      "kind": "G",
+      "prompt": "Who gives the Spirit without limit?",
+      "answer": "God",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-823",
+      "kind": "G",
+      "prompt": "Who sent his Son into the world to save the world through him?",
+      "answer": "God",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-1022",
+      "kind": "V",
+      "prompt": "Finish this verse: \"But whoever lives by the…\"",
+      "answer": "…truth comes into the light, so that it may be seen plainly that what they have done has been done in the sight of God.",
+      "reference": "John 3:21",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-1429",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"Jesus replied, “Very truly I…\"",
+      "answer": "…tell you, no one can see the kingdom of God unless they are born again.”",
+      "reference": "John 3:3",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-1674",
+      "kind": "G",
+      "prompt": "To whom did Nicodemus come at night?",
+      "answer": "Jesus",
+      "reference": "John 3:2",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-1738",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 6, what does the Spirit do?",
+      "answer": "Gives birth to spirit",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-1916",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verse 16.",
+      "answer": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+      "reference": "John 3:16",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-2288",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Rabbi, we know that you are a teacher who has come from God. For no one could perform the signs you are doing if God were not with him.\"?",
+      "answer": "Nicodemus said it to Jesus",
+      "reference": "John 3:2",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-2520",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 13, who came from heaven?",
+      "answer": "The Son of Man",
+      "reference": "John 3:13",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-2932",
+      "kind": "G",
+      "prompt": "Of what was there plenty at Aenon near Salim?",
+      "answer": "Water",
+      "reference": "John 3:23",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-3097",
+      "kind": "X",
+      "prompt": "Two-part question: to what does flesh give birth, and to what does the Spirit give birth?",
+      "answer": "1) Flesh; 2) Spirit",
+      "reference": "John 3:6",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-3539",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 28, ahead of whom am I sent?",
+      "answer": "The Messiah",
+      "reference": "John 3:28",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-4304",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"A person can receive only what is given them from heaven.\"?",
+      "answer": "John said it to some of his disciples (and possibly also a certain Jew)",
+      "reference": "John 3:27",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-4573",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 32, who accepts his testimony?",
+      "answer": "No one",
+      "reference": "John 3:32",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-4805",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verses 14 through 15.",
+      "answer": "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes may have eternal life in him.”",
+      "reference": "John 3:14-15",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-5172",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 21, how may it be seen that what they have done has been done in the sight of God?",
+      "answer": "Plainly",
+      "reference": "John 3:21",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-5377",
+      "kind": "G",
+      "prompt": "Where did Moses lift up the snake?",
+      "answer": "In the wilderness",
+      "reference": "John 3:14",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-5452",
+      "kind": "X",
+      "prompt": "In John, chapter 3, where was John baptizing?",
+      "answer": "At Aenon near Salim",
+      "reference": "John 3:23",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-6056",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 13, from where did the Son of Man come?",
+      "answer": "Heaven",
+      "reference": "John 3:13",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-6801",
+      "kind": "G",
+      "prompt": "Who hates the light?",
+      "answer": "Everyone who does evil",
+      "reference": "John 3:20",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-6958",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit.\"?",
+      "answer": "Jesus said it to Nicodemus",
+      "reference": "John 3:5",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-7159",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 30, what must he become?",
+      "answer": "Greater",
+      "reference": "John 3:30",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-7324",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 31, what is the one who comes from heaven?",
+      "answer": "Above all",
+      "reference": "John 3:31",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-7716",
+      "kind": "G",
+      "prompt": "Who asked, \"How can someone be born when they are old?\"",
+      "answer": "Nicodemus",
+      "reference": "John 3:4",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-7803",
+      "kind": "V",
+      "prompt": "Finish this verse: \"For God did not send…\"",
+      "answer": "…his Son into the world to condemn the world, but to save the world through him.",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-7951",
+      "kind": "G",
+      "prompt": "What should Nicodemus not be at Jesus' saying, \"You must be born again.\"?",
+      "answer": "Surprised",
+      "reference": "John 3:7",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-8147",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 36, what remains on whoever rejects the Son?",
+      "answer": "God's wrath",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-8733",
+      "kind": "G",
+      "prompt": "In whose hands has the Father placed everything?",
+      "answer": "The Son's",
+      "reference": "John 3:35",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-8813",
+      "kind": "X",
+      "prompt": "Two-part question: in John, chapter 3, what must Jesus become, and what must John become?",
+      "answer": "1) Greater; 2) Less",
+      "reference": "John 3:30",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-9019",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"You are Israel's teacher, and do you not understand these things?\"",
+      "answer": "Jesus said it to Nicodemus",
+      "reference": "John 3:10",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-9358",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 34, what does the one whom God has sent speak?",
+      "answer": "The words of God",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-10359",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 24, who was put in prison?",
+      "answer": "John",
+      "reference": "John 3:24",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-10517",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 3, unless what can no one see the kingdom of God?",
+      "answer": "Unless they are born again",
+      "reference": "John 3:3",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-10699",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 14, who must be lifted up?",
+      "answer": "The Son of Man",
+      "reference": "John 3:14",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-11269",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and in reply to what: \"You are Israel's teacher, and do you not understand these things?\"",
+      "answer": "Jesus said it to Nicodemus, in reply to, \"How can this be?",
+      "reference": "John 3:9-10",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-11484",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 34, how does God give the Spirit?",
+      "answer": "Without limit",
+      "reference": "John 3:34",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-12650",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 36, who will not see life?",
+      "answer": "Whoever rejects the Son",
+      "reference": "John 3:36",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-12759",
+      "kind": "X",
+      "prompt": "In John, chapter 3, whom did Nicodemus know was a teacher who had come from God?",
+      "answer": "Jesus",
+      "reference": "John 3:2",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-12974",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Very truly I tell you, no one can see the kingdom of God unless they are born again.\"?",
+      "answer": "Jesus said it to Nicodemus",
+      "reference": "John 3:3",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-13848",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 2, when did he come to Jesus?",
+      "answer": "At night",
+      "reference": "John 3:2",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-14103",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 12, of what have I spoken to you?",
+      "answer": "Earthly things",
+      "reference": "John 3:12",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-15230",
+      "kind": "X",
+      "prompt": "In John, chapter 3, who was sent ahead of the Messiah?",
+      "answer": "John",
+      "reference": "John 3:28",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-15465",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verse 17.",
+      "answer": "For God did not send his Son into the world to condemn the world, but to save the world through him.",
+      "reference": "John 3:17",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-15884",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 15, who may have eternal life in him?",
+      "answer": "Everyone who believes",
+      "reference": "John 3:15",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-16716",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 8, what do you hear?",
+      "answer": "The wind's sound",
+      "reference": "John 3:8",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-17069",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 11, what do you people still not accept?",
+      "answer": "Our testimony",
+      "reference": "John 3:11",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-17293",
+      "kind": "X",
+      "prompt": "In John, chapter 3, who testified about Jesus?",
+      "answer": "John",
+      "reference": "John 3:26",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-17521",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 33, what is God?",
+      "answer": "Truthful",
+      "reference": "John 3:33",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-17965",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 11, of what do we speak?",
+      "answer": "What we know",
+      "reference": "John 3:11",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-18445",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 8, with whom is it so?",
+      "answer": "Everyone born of the Spirit",
+      "reference": "John 3:8",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-18786",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 3, verses 5 through 6.",
+      "answer": "Jesus answered, “Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit. Flesh gives birth to flesh, but the Spirit gives birth to spirit.",
+      "reference": "John 3:5-6",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-20265",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 19, where has light come?",
+      "answer": "Into the world",
+      "reference": "John 3:19",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-20652",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 15, what may everyone who believes have?",
+      "answer": "Eternal life in him",
+      "reference": "John 3:15",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 3-21307",
+      "kind": "A",
+      "prompt": "According to John, chapter 3, verse 22, with whom did Jesus spend some time?",
+      "answer": "His disciples",
+      "reference": "John 3:22",
+      "chapter": 3,
+      "source": "John 3.rtf"
+    },
+    {
+      "id": "John 4-15",
+      "kind": "G",
+      "prompt": "Whom did the royal official take at his word?",
+      "answer": "Jesus",
+      "reference": "John 4:50",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-88",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 18, what have you had?",
+      "answer": "Five husbands",
+      "reference": "John 4:18",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-182",
+      "kind": "G",
+      "prompt": "How many husbands has the Samaritan woman had?",
+      "answer": "Five",
+      "reference": "John 4:18",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-377",
+      "kind": "G",
+      "prompt": "From what did Jacob himself drink?",
+      "answer": "The well",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-442",
+      "kind": "G",
+      "prompt": "What had Jesus turned into wine?",
+      "answer": "The water",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-506",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 6, when was it?",
+      "answer": "About noon",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-589",
+      "kind": "X",
+      "prompt": "In John, chapter 4, what is Messiah called?",
+      "answer": "Christ",
+      "reference": "John 4:25",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-961",
+      "kind": "G",
+      "prompt": "Who would have given the Samaritan woman living water?",
+      "answer": "Jesus",
+      "reference": "John 4:10",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1231",
+      "kind": "G",
+      "prompt": "Whose worshipers must worship in the Spirit and in truth?",
+      "answer": "God's",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1317",
+      "kind": "G",
+      "prompt": "Who has had five husbands?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:18",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1386",
+      "kind": "R",
+      "prompt": "Finish these verses and give the reference: \"“My food,” said Jesus, “is…\"",
+      "answer": "…to do the will of him who sent me and to finish his work. Don’t you have a saying, ‘It’s still four months until harvest’? I tell you, open your eyes and look at the fields! They are ripe for harvest.",
+      "reference": "John 4:34-35",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1689",
+      "kind": "G",
+      "prompt": "In whom must God's worshipers worship?",
+      "answer": "The Spirit",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1761",
+      "kind": "G",
+      "prompt": "To whom did Jesus say, \"I have food to eat that you know nothing about.\"?",
+      "answer": "His disciples",
+      "reference": "John 4:32",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1871",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 41, who became believers?",
+      "answer": "Many more",
+      "reference": "John 4:41",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-1965",
+      "kind": "G",
+      "prompt": "Who sat down by the well?",
+      "answer": "Jesus",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2018",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 46, who lay sick?",
+      "answer": "A certain royal official's son",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2125",
+      "kind": "G",
+      "prompt": "When did Jesus sit down by the well?",
+      "answer": "About noon",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2211",
+      "kind": "G",
+      "prompt": "Who gave us the well?",
+      "answer": "(Our father) Jacob",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2273",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 4, verse 10.",
+      "answer": "Jesus answered her, “If you knew the gift of God and who it is that asks you for a drink, you would have asked him and he would have given you living water.”",
+      "reference": "John 4:10",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2487",
+      "kind": "G",
+      "prompt": "Whom did the Samaritans urge to stay with them?",
+      "answer": "Jesus",
+      "reference": "John 4:40",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2562",
+      "kind": "G",
+      "prompt": "Who replied, \"I have no husband.\"?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:17",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2638",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 41, because of what did many more become believers?",
+      "answer": "His words",
+      "reference": "John 4:41",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-2915",
+      "kind": "G",
+      "prompt": "What is deep?",
+      "answer": "The well",
+      "reference": "John 4:11",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3032",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Could someone have brought him food?\"",
+      "answer": "Jesus' disciples said it to each other",
+      "reference": "John 4:33",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3178",
+      "kind": "R",
+      "prompt": "Finish this verse and give the reference: \"God is spirit, and his…\"",
+      "answer": "…worshipers must worship in the Spirit and in truth.”",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3396",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 25, who will explain everything to us when he comes?",
+      "answer": "Messiah (called Christ)",
+      "reference": "John 4:25",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3531",
+      "kind": "V",
+      "prompt": "Finish these verses: \"“My food,” said Jesus, “is…\"",
+      "answer": "…to do the will of him who sent me and to finish his work. Don’t you have a saying, ‘It’s still four months until harvest’? I tell you, open your eyes and look at the fields! They are ripe for harvest.",
+      "reference": "John 4:34-35",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3811",
+      "kind": "G",
+      "prompt": "Who said, \"My food is to do the will of him who sent me and to finish his work.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:34",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-3921",
+      "kind": "G",
+      "prompt": "What is the saying \"One sows and another reaps.\"?",
+      "answer": "True",
+      "reference": "John 4:37",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4102",
+      "kind": "G",
+      "prompt": "Who replied, \"Go, your son will live.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:50",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4273",
+      "kind": "G",
+      "prompt": "Whose sons also drank from the well?",
+      "answer": "Jacob's",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4584",
+      "kind": "G",
+      "prompt": "In whom did many of the Samaritans from that town believe?",
+      "answer": "Jesus",
+      "reference": "John 4:39",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4670",
+      "kind": "G",
+      "prompt": "Whose son lay sick at Capernaum?",
+      "answer": "A certain royal official's",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4751",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 39, what did he tell me?",
+      "answer": "Everything I ever did",
+      "reference": "John 4:39",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4855",
+      "kind": "G",
+      "prompt": "What may the sower and the reaper be together?",
+      "answer": "Glad",
+      "reference": "John 4:36",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-4928",
+      "kind": "G",
+      "prompt": "Who came to a town in Samaria called Sychar?",
+      "answer": "Jesus",
+      "reference": "John 4:5",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-5213",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 41, what did many more become?",
+      "answer": "Believers",
+      "reference": "John 4:41",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-5311",
+      "kind": "G",
+      "prompt": "Who was tired from the journey?",
+      "answer": "Jesus",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-5492",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Go, call your husband and come back.\"?",
+      "answer": "Jesus said it to the Samaritan woman",
+      "reference": "John 4:16",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-5695",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 13, what will everyone who drinks this water be again?",
+      "answer": "Thirsty",
+      "reference": "John 4:13",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-5816",
+      "kind": "G",
+      "prompt": "Whom will the true worshipers worship in the Spirit and in truth?",
+      "answer": "The Father",
+      "reference": "John 4:23",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6017",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 6, what was Jesus?",
+      "answer": "Tired (from the journey)",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6363",
+      "kind": "G",
+      "prompt": "In whom will the true worshipers worship the Father?",
+      "answer": "The Spirit",
+      "reference": "John 4:23",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6466",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 5, what is a town in Samaria called?",
+      "answer": "Sychar",
+      "reference": "John 4:5",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6566",
+      "kind": "G",
+      "prompt": "What had Jesus' disciples gone into the town to buy?",
+      "answer": "Food",
+      "reference": "John 4:8",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6756",
+      "kind": "Q",
+      "prompt": "Quote John, chapter 4, verse 24.",
+      "answer": "God is spirit, and his worshipers must worship in the Spirit and in truth.”",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6888",
+      "kind": "G",
+      "prompt": "Who told the woman, \"Go, call your husband and come back.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:16",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-6975",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 22, from whom is salvation?",
+      "answer": "The Jews",
+      "reference": "John 4:22",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7069",
+      "kind": "R",
+      "prompt": "Finish these verses and give the reference: \"Jesus answered, “Everyone who drinks…\"",
+      "answer": "…this water will be thirsty again, but whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life.”",
+      "reference": "John 4:13-14",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7371",
+      "kind": "G",
+      "prompt": "Who said to a Samaritan woman, \"Will you give me a drink?\"",
+      "answer": "Jesus",
+      "reference": "John 4:7",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7456",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 29, what did a man tell me?",
+      "answer": "Everything I ever did",
+      "reference": "John 4:29",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7563",
+      "kind": "G",
+      "prompt": "Who declared, \"I, the one speaking to you—I am he.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:26",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7848",
+      "kind": "G",
+      "prompt": "Who draws a wage?",
+      "answer": "The one who reaps",
+      "reference": "John 4:36",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-7975",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 43, for where did he leave after the two days?",
+      "answer": "Galilee",
+      "reference": "John 4:43",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-8200",
+      "kind": "G",
+      "prompt": "Whom did the Galileans welcome when he arrived in Galilee?",
+      "answer": "Jesus",
+      "reference": "John 4:45",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-8287",
+      "kind": "X",
+      "prompt": "In John, chapter 4, into which town did Jesus' disciples go to buy food?",
+      "answer": "Sychar",
+      "reference": "John 4:5, 8",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-8665",
+      "kind": "G",
+      "prompt": "Who claim that the place where we must worship is in Jerusalem?",
+      "answer": "You Jews",
+      "reference": "John 4:20",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9004",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Come, see a man who told me everything I ever did. Could this be the Messiah?\"",
+      "answer": "The Samaritan woman said it to the people",
+      "reference": "John 4:28-29",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9303",
+      "kind": "G",
+      "prompt": "From what was Jesus tired?",
+      "answer": "The journey",
+      "reference": "John 4:6",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9362",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 25, what will Messiah explain to us when he comes?",
+      "answer": "Everything",
+      "reference": "John 4:25",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9574",
+      "kind": "X",
+      "prompt": "In John, chapter 4, who in fact was not baptizing?",
+      "answer": "Jesus",
+      "reference": "John 4:2",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9651",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 22, what is from the Jews?",
+      "answer": "Salvation",
+      "reference": "John 4:22",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-9808",
+      "kind": "G",
+      "prompt": "When will whoever drinks the water Jesus gives them thirst?",
+      "answer": "Never",
+      "reference": "John 4:14",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10295",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 53, who believed?",
+      "answer": "The father and his whole household",
+      "reference": "John 4:53",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10406",
+      "kind": "G",
+      "prompt": "What does the one who reaps draw?",
+      "answer": "A wage",
+      "reference": "John 4:36",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10469",
+      "kind": "G",
+      "prompt": "Who told a certain royal official, \"Unless you people see signs and wonders, you will never believe.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:48",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10600",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 53, what had Jesus said to the father?",
+      "answer": "Your son will live.",
+      "reference": "John 4:53",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10719",
+      "kind": "G",
+      "prompt": "Who were surprised to find Jesus talking with a woman?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:27",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-10813",
+      "kind": "V",
+      "prompt": "Finish these verses: \"Jesus answered, “Everyone who drinks…\"",
+      "answer": "…this water will be thirsty again, but whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life.”",
+      "reference": "John 4:13-14",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-11093",
+      "kind": "G",
+      "prompt": "Who had to go through Samaria?",
+      "answer": "Jesus",
+      "reference": "John 4:4",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-11233",
+      "kind": "G",
+      "prompt": "What are ripe for harvest?",
+      "answer": "The fields",
+      "reference": "John 4:35",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-11678",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and in reply to what: \"I have no husband.\"?",
+      "answer": "The Samaritan woman said it to Jesus, in reply to, \"Go, call your husband and come back.",
+      "reference": "John 4:16-17",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-11878",
+      "kind": "G",
+      "prompt": "For what are the fields ripe?",
+      "answer": "Harvest",
+      "reference": "John 4:35",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-11937",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 24, who must worship in the Spirit and in truth?",
+      "answer": "God's worshipers",
+      "reference": "John 4:24",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-12132",
+      "kind": "G",
+      "prompt": "Who has food to eat that his disciples know nothing about?",
+      "answer": "Jesus",
+      "reference": "John 4:32",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-12218",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 40, how many days did he stay?",
+      "answer": "Two",
+      "reference": "John 4:40",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-12310",
+      "kind": "G",
+      "prompt": "Who should open their eyes and look at the fields?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:35",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-12595",
+      "kind": "G",
+      "prompt": "Who urged Jesus, \"Rabbi, eat something.\"?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:31",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-12977",
+      "kind": "G",
+      "prompt": "Who has nothing to draw with?",
+      "answer": "Jesus",
+      "reference": "John 4:11",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13195",
+      "kind": "G",
+      "prompt": "Who left her water jar?",
+      "answer": "The (Samaritan) woman",
+      "reference": "John 4:28",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13386",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 19, what can I see?",
+      "answer": "That you are a prophet",
+      "reference": "John 4:19",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13504",
+      "kind": "G",
+      "prompt": "Whom did a certain royal official beg to come and heal his son?",
+      "answer": "Jesus",
+      "reference": "John 4:47",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13595",
+      "kind": "G",
+      "prompt": "Who have reaped the benefits of others' labor?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:38",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13680",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 45, who welcomed him?",
+      "answer": "The Galileans",
+      "reference": "John 4:45",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13773",
+      "kind": "X",
+      "prompt": "In John, chapter 4, who knows that Messiah is coming?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:25",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13868",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 3, to where did he go back once more?",
+      "answer": "Galilee",
+      "reference": "John 4:3",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-13970",
+      "kind": "G",
+      "prompt": "How many days did Jesus stay with the Samaritans?",
+      "answer": "Two",
+      "reference": "John 4:40",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-14150",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"Sir, come down before my child dies.\"?",
+      "answer": "The royal official said it to Jesus",
+      "reference": "John 4:49",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-14293",
+      "kind": "G",
+      "prompt": "Who sent his disciples to reap what they have not worked for?",
+      "answer": "Jesus",
+      "reference": "John 4:38",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-14382",
+      "kind": "G",
+      "prompt": "Whose food is to do the will of him who sent him and to finish his work?",
+      "answer": "Jesus'",
+      "reference": "John 4:34",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-14870",
+      "kind": "G",
+      "prompt": "Who said to each other, \"Could someone have brought him food?\"",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:33",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-15275",
+      "kind": "G",
+      "prompt": "What is called Sychar?",
+      "answer": "A town in Samaria",
+      "reference": "John 4:5",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-15681",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 40, what did the Samaritans urge him?",
+      "answer": "To stay with them",
+      "reference": "John 4:40",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-15795",
+      "kind": "G",
+      "prompt": "What did Jacob give us?",
+      "answer": "The well",
+      "reference": "John 4:12",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-16197",
+      "kind": "G",
+      "prompt": "Who has no husband?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:17",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-16258",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 46, what is in Galilee?",
+      "answer": "Cana",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-16344",
+      "kind": "X",
+      "prompt": "In John, chapter 4, who in fact was it who baptized?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:2",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-16735",
+      "kind": "G",
+      "prompt": "Who asked, \"Why are you talking with her?\"",
+      "answer": "No one",
+      "reference": "John 4:27",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17100",
+      "kind": "G",
+      "prompt": "Who learned that the Pharisees had heard that he was gaining and baptizing more disciples than John?",
+      "answer": "Jesus",
+      "reference": "John 4:1",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17228",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 5, what had Jacob given to his son Joseph?",
+      "answer": "A plot of ground",
+      "reference": "John 4:5",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17345",
+      "kind": "G",
+      "prompt": "What does Jesus have to draw with?",
+      "answer": "Nothing",
+      "reference": "John 4:11",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17410",
+      "kind": "G",
+      "prompt": "Of whose labor have Jesus' disciples reaped the benefits?",
+      "answer": "Others'",
+      "reference": "John 4:38",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17634",
+      "kind": "S",
+      "prompt": "Situation question: who said it, to whom, and where: \"Will you give me a drink?\"",
+      "answer": "Jesus said it to a Samaritan woman, at Jacob’s well",
+      "reference": "John 4:6-7",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-17790",
+      "kind": "G",
+      "prompt": "Who said to the woman, \"You are right when you say you have no husband.\"?",
+      "answer": "Jesus",
+      "reference": "John 4:17",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-18167",
+      "kind": "G",
+      "prompt": "Who had gone into the town to buy food?",
+      "answer": "Jesus' disciples",
+      "reference": "John 4:8",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-18541",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"My food is to do the will of him who sent me and to finish his work.\"?",
+      "answer": "Jesus said it to his disciples",
+      "reference": "John 4:34",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-19128",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 53, who will live?",
+      "answer": "Your son",
+      "reference": "John 4:53",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-19749",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 21, whom will you worship?",
+      "answer": "The Father",
+      "reference": "John 4:21",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-20060",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 45, who had seen all that he had done in Jerusalem at the Passover Festival?",
+      "answer": "The Galileans",
+      "reference": "John 4:45",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-20295",
+      "kind": "X",
+      "prompt": "In John, chapter 4, who visited Cana in Galilee once more?",
+      "answer": "Jesus",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-20876",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 43, when did he leave for Galilee?",
+      "answer": "After the two days",
+      "reference": "John 4:43",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-21163",
+      "kind": "S",
+      "prompt": "Situation question: who said it, and to whom: \"I have food to eat that you know nothing about.\"?",
+      "answer": "Jesus said it to his disciples",
+      "reference": "John 4:32",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-21384",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 8, where had his disciples gone?",
+      "answer": "Into the town",
+      "reference": "John 4:8",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-21585",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 46, where had he turned the water into wine?",
+      "answer": "Cana (in Galilee)",
+      "reference": "John 4:46",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-21838",
+      "kind": "X",
+      "prompt": "Whom did Jesus tell everything she ever did?",
+      "answer": "The Samaritan woman",
+      "reference": "John 4:29",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    },
+    {
+      "id": "John 4-22702",
+      "kind": "A",
+      "prompt": "According to John, chapter 4, verse 36, who may be glad together?",
+      "answer": "The sower and the reaper",
+      "reference": "John 4:36",
+      "chapter": 4,
+      "source": "John 4.rtf"
+    }
+  ],
+  "verses": [
+    {
+      "reference": "John 1:1",
+      "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+      "chapter": 1
+    },
+    {
+      "reference": "John 1:9",
+      "text": "The true light that gives light to everyone was coming into the world.",
+      "chapter": 1
+    },
+    {
+      "reference": "John 1:12-13",
+      "text": "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God—children born not of natural descent, nor of human decision or a husband’s will, but born of God.",
+      "chapter": 1
+    },
+    {
+      "reference": "John 1:14",
+      "text": "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+      "chapter": 1
+    },
+    {
+      "reference": "John 1:16-17",
+      "text": "Out of his fullness we have all received grace in place of grace already given. For the law was given through Moses; grace and truth came through Jesus Christ.",
+      "chapter": 1
+    },
+    {
+      "reference": "John 1:29",
+      "text": "The next day John saw Jesus coming toward him and said, “Look, the Lamb of God, who takes away the sin of the world!",
+      "chapter": 1
+    },
+    {
+      "reference": "John 2:19",
+      "text": "Jesus answered them, “Destroy this temple, and I will raise it again in three days.”",
+      "chapter": 2
+    },
+    {
+      "reference": "John 2:22",
+      "text": "After he was raised from the dead, his disciples recalled what he had said. Then they believed the scripture and the words that Jesus had spoken.",
+      "chapter": 2
+    },
+    {
+      "reference": "John 3:3",
+      "text": "Jesus replied, “Very truly I tell you, no one can see the kingdom of God unless they are born again.”",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:5-6",
+      "text": "Jesus answered, “Very truly I tell you, no one can enter the kingdom of God unless they are born of water and the Spirit. Flesh gives birth to flesh, but the Spirit gives birth to spirit.",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:14-15",
+      "text": "Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up, that everyone who believes may have eternal life in him.”",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:16",
+      "text": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:17",
+      "text": "For God did not send his Son into the world to condemn the world, but to save the world through him.",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:21",
+      "text": "But whoever lives by the truth comes into the light, so that it may be seen plainly that what they have done has been done in the sight of God.",
+      "chapter": 3
+    },
+    {
+      "reference": "John 3:36",
+      "text": "Whoever believes in the Son has eternal life, but whoever rejects the Son will not see life, for God’s wrath remains on them.",
+      "chapter": 3
+    },
+    {
+      "reference": "John 4:10",
+      "text": "Jesus answered her, “If you knew the gift of God and who it is that asks you for a drink, you would have asked him and he would have given you living water.”",
+      "chapter": 4
+    },
+    {
+      "reference": "John 4:13-14",
+      "text": "Jesus answered, “Everyone who drinks this water will be thirsty again, but whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life.”",
+      "chapter": 4
+    },
+    {
+      "reference": "John 4:24",
+      "text": "God is spirit, and his worshipers must worship in the Spirit and in truth.”",
+      "chapter": 4
+    },
+    {
+      "reference": "John 4:34-35",
+      "text": "“My food,” said Jesus, “is to do the will of him who sent me and to finish his work. Don’t you have a saying, ‘It’s still four months until harvest’? I tell you, open your eyes and look at the fields! They are ripe for harvest.",
+      "chapter": 4
+    }
+  ],
+  "sources": [
+    {
+      "source": "John 1-2.txt",
+      "answers": 200,
+      "parsed": 200
+    },
+    {
+      "source": "John 1-3.txt",
+      "answers": 200,
+      "parsed": 200
+    },
+    {
+      "source": "John 1-4.txt",
+      "answers": 200,
+      "parsed": 200
+    },
+    {
+      "source": "John 1.txt",
+      "answers": 80,
+      "parsed": 80
+    },
+    {
+      "source": "John 2.txt",
+      "answers": 60,
+      "parsed": 60
+    },
+    {
+      "source": "John 3.txt",
+      "answers": 200,
+      "parsed": 200
+    },
+    {
+      "source": "John 4.txt",
+      "answers": 200,
+      "parsed": 200
+    }
+  ],
+  "originalCount": 1140
+}

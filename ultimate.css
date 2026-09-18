@@ -1,0 +1,2 @@
+.ultimate-status{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin:15px 0;color:#b8d9e8;font-size:11px}.ultimate-status>span{display:flex;align-items:center;gap:5px}.ultimate-status svg{width:15px;height:15px;color:#e9ca7f}.ultimate-status .progress-bar{width:100%;margin:0;height:6px}.ultimate-status .progress-bar>span{background:linear-gradient(90deg,#6fd2ee,#e8cc81)}.tile-boss{color:#efb85d}.tile-elite{color:#eb9976}
+@media(max-width:500px){.topbar:has(+.lobby-main) .profile>svg{display:block!important}}
