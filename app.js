@@ -212,3 +212,5 @@ function showEquipment(key,back='equipment',discovered=false){
  $('#protectGear').onclick=()=>{if(applyGrowth(s=>protectEquipment(s,key)))showEquipment(key,back);};
  $('#combineGear')?.addEventListener('click',()=>{if(applyGrowth(s=>fuseEquipment(s,key),'Equipment fused.')){showEquipment(recipe.key,back,true);chime();}});$('#backArmory').onclick=()=>showArmory(back);
 }
+
+import './screen-fit.css';
