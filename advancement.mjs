@@ -1,0 +1,7 @@
+import {career,itemInfo,itemStats,upgradeEquipment,upgradeCost} from './progression.mjs';
+export const gearPrice=rarity=>[60,180,540][rarity];
+export function equipmentComparison(s,key){const item=itemInfo(key),c=career(s),level=c.slotLevels[item.slot]||1,current=c.equipped[item.slot],before=current?itemStats(current,level):{attack:0,hp:0,defense:0},after=itemStats(key,level);return {current,before,after,delta:Object.fromEntries(['attack','hp','defense'].map(k=>[k,after[k]-before[k]]))};}
+export function bulkUpgradePlan(s,slot){let next=s,count=0,gold=0,ore=0;if(s.phase!=='lobby')return {count,gold,ore,next:s};while(count<25){const cost=upgradeCost(next,slot);try{next=upgradeEquipment(next,slot);count++;gold+=cost.gold;ore+=cost.ore;}catch{break;}}return {count,gold,ore,next};}
+export function upgradeAffordable(s,slot){const plan=bulkUpgradePlan(s,slot);if(!plan.count)throw Error('No affordable upgrades below this rarity limit.');return plan.next;}
+export function salvageQuote(s,key){const c=career(s),item=itemInfo(key),count=Math.max(0,(c.inventory[key]||0)-1);return {available:!c.protected?.[key]&&item.rarity<2&&count>0,ore:2+item.rarity*3};}
+export function salvageSpare(s,key){if(s.phase!=='lobby')throw Error('Recycle spare gear in the lobby.');const q=salvageQuote(s,key);if(!q.available)throw Error('Keep one copy; only unprotected Common or Rare spares can be recycled.');const c=structuredClone(career(s));c.inventory[key]--;c.ore+=q.ore;return {...s,career:c};}

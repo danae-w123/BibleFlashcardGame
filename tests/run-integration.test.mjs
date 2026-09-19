@@ -18,7 +18,7 @@ test('complete finite run resolves every encounter and carries its permanent rew
    s=finishRunBattle(s);continue;
   }
   s=arrive(planMove(s,()=>.6));
-  if(['battle','elite','boss'].includes(s.event)){const kind=s.event;s=runBattle(s,kind);}
+  if(['battle','pack','elite','boss'].includes(s.event)){const kind=s.event;s=runBattle(s,kind);}
   else if(s.event==='trial'){
    s={...s,event:null,pending:makeChallenge(data,s.stage,'quiz',s.seen),feedback:null};
    s=runAnswer(s,s.pending.answer);s={...s,pending:null,feedback:null};
@@ -26,6 +26,6 @@ test('complete finite run resolves every encounter and carries its permanent rew
   else if(s.event==='market')s={...s,event:null,run:{...s.run,shop:null}};
   else s=runEvent(s);
  }
- assert.equal(s.phase,'results');assert.equal(s.run.payout.outcome,'victory');assert.equal(s.run.turn,30);assert.equal(bosses,1);assert.equal(s.history.length,1);assert.ok(s.armor.includes(0));assert.ok(s.coins>100);
+ assert.equal(s.phase,'results');assert.equal(s.run.payout.outcome,'victory');assert.equal(s.run.distance,60);assert.equal(s.run.lap,3);assert.equal(bosses,1);assert.equal(s.history.length,1);assert.ok(s.armor.includes(0));assert.ok(s.coins>100);
  const gold=s.coins,attempts=s.history[0].attempts.length;s=startRun(returnToLobby(s));assert.equal(s.coins,gold);assert.equal(s.history[0].attempts.length,attempts);assert.equal(s.attempts.length,0);assert.equal(s.run.turn,0);assert.deepEqual(s.skills,{});
 });

@@ -8,7 +8,7 @@ export function boardForLap(id,lap=0,size=BOARD_SIZE){
  const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
  const deck=['battle','trial','battle','storm','trial','battle','trial','battle','trial','storm','battle','trial','battle','trial','battle','trial'];
  for(let i=deck.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[deck[i],deck[j]]=[deck[j],deck[i]];}
- const corners=landmarksForSize(size);let cursor=0;return Array.from({length:size},(_,i)=>corners[i]||deck[cursor++%deck.length]);
+ const corners=landmarksForSize(size);let cursor=0;return Array.from({length:size},(_,i)=>corners[i]||deck[cursor++%deck.length]).map((kind,i)=>lap>0&&kind==='battle'&&i%2===0?'pack':kind);
 }
 export function rollDice(rng=Math.random){return Array.from({length:2},()=>Math.min(6,Math.max(1,1+Math.floor(rng()*6))));}
 export const movePath=(from,steps,size=BOARD_SIZE)=>Array.from({length:steps},(_,i)=>(from+i+1)%size);
