@@ -11,6 +11,8 @@ class QuestAudio {
       this.timer=setInterval(()=>this.schedule(),25);
     }catch{/* Browsers may require another user gesture before enabling audio. */}
   }
+  rollEffect(){if(!this.enabled||!this.ctx)return;const t=this.ctx.currentTime;for(let i=0;i<8;i++)this.drum(t+i*.105,false);}
+  stepEffect(){if(this.enabled&&this.ctx)this.tone(48,this.ctx.currentTime,.06,.025,'triangle');}
   hush(){clearInterval(this.timer);this.timer=null;this.ctx?.suspend();}
   tone(midi,time,duration,volume=.1,type='triangle'){
     const c=this.ctx,o=c.createOscillator(),g=c.createGain();o.type=type;o.frequency.value=440*2**((midi-69)/12);o.connect(g);g.connect(this.master);
