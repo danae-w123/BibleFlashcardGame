@@ -1,3 +1,4 @@
+import {finishDiscovery} from './discoveries.mjs';
 import {MAPS} from './maps.mjs';
 import {boardForLap,rollDice,boardSize,eliteTurns} from './board.mjs';
 import {selectMonster} from './monsters.mjs';
@@ -36,7 +37,7 @@ export const tileType=(s,i)=>s.run?.move?.to===i?s.run.move.kind:s.position===i&
 function temporary(s,action){const next=action({...s,coins:s.tokens});return {...next,coins:s.coins,tokens:next.coins,career:s.career};}
 export function runAnswer(s,input){let next=temporary(s,x=>oldAnswer(x,input));const right=next.feedback.correct;return {...next,run:{...s.run,charge:Math.min(100,(s.run.charge||0)+(right?10:0)),xp:s.run.xp+(right?30:5),ore:s.run.ore+(right?2:0),chests:s.run.chests+(right&&summary(next).right%3===0?1:0)}};}
 export function runChoice(s,id){const next=temporary(s,x=>oldChoose(x,id));return id==='focus'?{...next,run:{...next.run,charge:Math.min(100,(next.run.charge||0)+20)}}:next;}
-export function runEvent(s){const next=temporary(s,oldEvent);return s.event==='camp'?{...next,run:{...next.run,charge:Math.min(100,(next.run.charge||0)+25)}}:next;}
+export function runEvent(s){if(s.run?.discovery&&['treasure','blessing'].includes(s.event))return finishDiscovery(s);const next=temporary(s,oldEvent);return s.event==='camp'?{...next,run:{...next.run,charge:Math.min(100,(next.run.charge||0)+25)}}:next;}
 export function campChoice(s,choice,rng=Math.random){
  if(s.event!=='camp'||!['rest','train'].includes(choice))throw Error('Choose rest or training at a camp.');
  if(choice==='rest')return runEvent(s);
