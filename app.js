@@ -128,8 +128,8 @@ function showBattle(){
  const dock=document.createElement('section');dock.className='battle-dock';dock.setAttribute('aria-label','Battle encounter');
  dock.innerHTML=`<div class="battle-heading"><span class="eyebrow gold">${b.done?'BATTLE COMPLETE':!b.started?'ENEMY ENCOUNTER':'ROUND '+b.turn}</span><h2>${b.name}</h2></div>
  <div class="combat-stats"><div><strong>${esc(state.alias||state.name)}</strong><span>${state.health} / ${maxHealth(state)} HP</span><div class="health-bar"><b style="width:${state.health/maxHealth(state)*100}%"></b></div></div><div><strong>${b.name}</strong><span>${b.hp} / ${b.max} HP</span><div class="health-bar enemy"><b style="width:${b.hp/b.max*100}%"></b></div></div></div>
- <div class="ultimate-status"><span>${weaponAbility(career(state).equipped.sword).name} <b>${state.run.charge||0}%</b></span><span>${b.shield||0} shield HP</span><div class="progress-bar"><span style="width:${state.run.charge||0}%"></span></div></div>
- <div class="battle-arena ${b.done?'battle-'+b.outcome:''}"><img class="fighter hero-fighter" src="${heroAsset()}" alt="Your adventurer"><span class="battle-vs">${icon('swords')}</span>${monsterPortrait(b.monsterId,'fighter monster-fighter')}<div class="arena-glow"></div><div class="fx-layer" aria-hidden="true"></div></div>
+ <div class="ultimate-status"><span>${weaponAbility(career(state).equipped.sword).name} <b>${state.run.charge||0}%</b></span><span class="shield-readout">${icon('shield')} ${b.shield||0} shield HP</span><div class="progress-bar"><span style="width:${state.run.charge||0}%"></span></div></div>
+ <div class="battle-arena ${b.done?'battle-'+b.outcome:''}"><img class="fighter hero-fighter" src="${heroAsset()}" alt="Your adventurer"><span class="shield-shell ${b.shield>0?'charged':''}"></span><span class="battle-vs">${icon('swords')}</span>${monsterPortrait(b.monsterId,'fighter monster-fighter')}<div class="arena-glow"></div><div class="fx-layer" aria-hidden="true"></div></div>
  <p class="battle-log" aria-live="polite">${!b.started?'Ready when you are. Press Start Battle.':esc(b.log)}</p>
  <div class="auto-controls">${b.done?`<button class="primary" id="finishBattle">${b.outcome==='won'?'Collect rewards':'View results'}</button>`:!b.started?'<button class="primary" id="startBattle">Start Battle</button>':`<span class="auto-status"><i></i>${battlePaused?'PAUSED':'FIGHTING'}</span><button id="pauseBattle">${battlePaused?'Resume':'Pause'}</button><button id="battleSpeed" aria-label="Battle speed">${battleSpeed}× speed</button>`}<button id="battleInfo">Battle details</button></div>`;
  $('.run-tools').after(dock);iconsNow();questAudio.mode=b.started&&!b.done?'battle':'board';
@@ -150,10 +150,11 @@ function showEncounter(){
  }
  if(kind==='market'){
   state=enterShop(state);const shop=state.run.shop;
-  modal(`<div class="eyebrow gold">RUN SHOP · TEMPORARY UPGRADES</div><h2 id="dialog-title">The wandering merchant.</h2><p class="muted">${state.tokens} run tokens · Permanent gold: ${state.coins}. Purchases last for this attempt.</p><div class="shop-items run-shop">${shop.offers.map((offer,i)=>`<button class="quiet" data-offer="${i}" ${shop.bought.includes(i)||state.tokens<offer.price?'disabled':''}><strong>${offer.id.startsWith('skill:')?SKILLS.find(x=>x.id===offer.desc)?.name:offer.name}</strong><span>${offer.id.startsWith('skill:')?SKILLS.find(x=>x.id===offer.desc)?.desc(skillLevel(state,offer.desc)+1):offer.desc}</span><b>${shop.bought.includes(i)?'Sold out':offer.price+' tokens'}</b></button>`).join('')}</div><button id="refreshShop" class="quiet full" ${state.tokens<10+shop.refreshes*5?'disabled':''}>Refresh offers · ${10+shop.refreshes*5} tokens</button><button id="inspectBuild" class="text-button full">Inspect current skills</button><div id="shopBuild"></div><button class="primary full" id="leaveShop">Leave shop & continue</button>`);
+  modal(`<div class="merchant-scene"><div class="merchant-greeting"><span class="eyebrow gold">THE WAYFARER’S EMPORIUM</span><h2 id="dialog-title">A little help for the road.</h2><p>“Choose wisely, traveler. A new skill can turn the tide.”</p></div></div><div class="merchant-catalog"><header><div><span class="eyebrow gold">RUN SHOP</span><h3>Supplies & discoveries</h3></div><strong class="merchant-wallet">${icon('coins')} ${state.tokens}<small>RUN TOKENS</small></strong></header><p class="merchant-note">These upgrades last this run. Your permanent gold stays safe.</p><div class="merchant-stock">${shop.offers.map((offer,i)=>{const sk=offer.id.startsWith('skill:')?SKILLS.find(x=>x.id===offer.desc):null,sold=shop.bought.includes(i);return `<button class="merchant-offer rarity-${sk?.rarity||'common'} ${sold?'sold':''}" data-offer="${i}" ${sold||state.tokens<offer.price?'disabled':''}><span class="offer-icon">${icon(sk?.icon||({heal:'heart-pulse',attack:'sword',defense:'shield'}[offer.id]))}</span><span class="offer-copy"><small>${sk?sk.rarity.toUpperCase()+' · LEVEL '+(skillLevel(state,sk.id)+1):'SUPPLY'}</small><strong>${sk?.name||offer.name}</strong><span>${sk?sk.desc(skillLevel(state,sk.id)+1):offer.desc}</span></span><b>${sold?'SOLD OUT':offer.price+' tokens'}</b></button>`;}).join('')}</div><details class="merchant-build"><summary>Your current skills</summary>${SKILLS.filter(x=>skillLevel(state,x.id)).map(x=>`<p><strong>${x.name} ${skillLevel(state,x.id)}</strong> · ${x.desc(skillLevel(state,x.id))}</p>`).join('')||'<p>No skills yet.</p>'}</details><footer><button id="refreshShop" class="quiet" ${state.tokens<10+shop.refreshes*5?'disabled':''}>Reroll · ${10+shop.refreshes*5} tokens</button><button class="primary" id="leaveShop">Exit shop ${icon('arrow-right')}</button></footer></div>`,true);
+  $('.modal').classList.add('merchant-modal');persist();
   document.querySelectorAll('[data-offer]').forEach(b=>b.onclick=()=>{if(syncIssue)return;try{state=buyRunOffer(state,Number(b.dataset.offer));persist();render();showEncounter();}catch(e){notify(e.message);}});
   $('#refreshShop').onclick=()=>{if(syncIssue)return;state=refreshShop(state);persist();render();showEncounter();};
-  $('#inspectBuild').onclick=()=>{$('#shopBuild').innerHTML=SKILLS.filter(x=>skillLevel(state,x.id)).map(x=>`<p><strong>${x.name}</strong> · ${x.desc(skillLevel(state,x.id))}</p>`).join('')||'<p>No skills yet.</p>';};
+
   $('#leaveShop').onclick=()=>{if(syncIssue)return;state={...state,event:null,run:{...state.run,shop:null}};persist();closeModal();render();};return;
  }
  modal(`<div class="encounter-icon">${icon(e.icon)}</div><div class="eyebrow gold">ON YOUR JOURNEY</div><h2 id="dialog-title">${e.name}</h2><p class="muted">${e.description.replaceAll('gold','run tokens')}</p><button class="primary full" id="resolveEncounter">Continue journey ${icon('arrow-right')}</button>`);
@@ -178,14 +179,17 @@ async function animateCombat(action){
   layer.innerHTML=`${action==='guard'?'<span class="guard-aura"></span>':action==='radiance'?'<span class="radiant-orb"></span>':'<span class="sword-arc"></span>'}`;
   await pause(380);
   arena.classList.add('enemy-hit');
-  const hpDamage=before.battle.hp-next.battle.hp;
+  const turn=next.battle.lastTurn||{},hpDamage=turn.damageDealt??before.battle.hp-next.battle.hp;
+  if(turn.lifeStolen)layer.insertAdjacentHTML('beforeend',`<span class="sustain-pop">+${turn.lifeStolen} HP · LIFE STEAL</span>`);
+  if(turn.shieldGained){$('.shield-shell').classList.add('charged');layer.insertAdjacentHTML('beforeend',`<span class="aegis-pop">+${turn.shieldGained} SHIELD</span>`);}
   layer.insertAdjacentHTML('beforeend',`<span class="damage-pop enemy-damage">−${hpDamage}</span>${next.battle.burn?`<span class="element-burst fire-burst">${icon('flame')}</span>`:''}${next.battle.effects.includes('Chain lightning')?`<span class="element-burst lightning-burst">${icon('zap')}</span>`:''}${next.battle.poison?'<span class="poison-burst"></span>':''}${next.battle.effects.includes('Critical hit')?'<span class="critical-label">CRITICAL!</span>':''}`);iconsNow();
   const hpText=$('.combat-stats>div:nth-child(2)>span'),hpBar=$('.health-bar.enemy>b');if(hpText)hpText.textContent=`${next.battle.hp} / ${next.battle.max} HP`;if(hpBar)hpBar.style.width=`${next.battle.hp/next.battle.max*100}%`;chime();
   await pause(480);
   if(next.battle.outcome!=='won'){
    arena.classList.remove('enemy-hit');arena.classList.add('enemy-counter');$('.battle-log').textContent=before.battle.intent==='heavy'?`${before.battle.name} unleashes a heavy counterattack!`:`${before.battle.name} strikes back!`;
    await pause(300);arena.classList.add(action==='guard'?'guard-impact':'hero-hit');
-   const lost=before.health-next.health;layer.insertAdjacentHTML('beforeend',`<span class="damage-pop hero-damage ${lost<=0?'healing':''}">${lost>0?'−':'+'}${Math.abs(lost)}</span>${action==='guard'?'<span class="blocked-label">BLOCKED</span>':''}${skillLevel(before,'frost')?`<span class="frost-burst">${icon('snowflake')}</span>`:''}`);iconsNow();
+   if(turn.shieldBlocked)layer.insertAdjacentHTML('beforeend',`<span class="shield-impact">${turn.shieldBlocked} ABSORBED</span>`);
+   const lost=turn.healthDamage??before.health-next.health;layer.insertAdjacentHTML('beforeend',`<span class="damage-pop hero-damage ${lost<=0?'healing':''}">${lost>0?'−':'+'}${Math.abs(lost)}</span>${action==='guard'?'<span class="blocked-label">BLOCKED</span>':''}${skillLevel(before,'frost')?`<span class="frost-burst">${icon('snowflake')}</span>`:''}`);iconsNow();
    const heroText=$('.combat-stats>div:first-child>span'),heroBar=$('.health-bar:not(.enemy)>b');if(heroText)heroText.textContent=`${next.health} / ${maxHealth(next)} HP`;if(heroBar)heroBar.style.width=`${next.health/maxHealth(next)*100}%`;
    await pause(430);
   }else{arena.classList.add('victory-flash');await pause(330);}
@@ -269,3 +273,5 @@ function showEquipment(key,back='equipment',discovered=false){
 import './screen-fit.css';
 
 import './board.css';
+
+import './merchant.css';

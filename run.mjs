@@ -97,7 +97,7 @@ export function trainWithGold(s,id){
  const price=trainingCost(s,id);if(s.coins<price)throw Error('Earn more gold from a run.');
  const c=structuredClone(career(s));c.talents[id]=(c.talents[id]||0)+1;return {...s,coins:s.coins-price,career:c};
 }
-export function shopStock(s,rng=Math.random){const skills=drawSkillChoices(s,rng).filter(id=>!['coins','lanterns','wards'].includes(id));return [{id:'heal',name:'Healing spring',desc:'Restore 40 HP',price:20},{id:'attack',name:'Tempered edge',desc:'+4 attack this run',price:30},{id:'defense',name:'Iron resolve',desc:'+2 defense this run',price:30},...skills.slice(0,1).map(id=>({id:'skill:'+id,name:'Skill discovery',desc:id,price:40}))];}
+export function shopStock(s,rng=Math.random){const skills=drawSkillChoices(s,rng).filter(id=>!['coins','lanterns','wards'].includes(id));return [{id:'heal',name:'Healing spring',desc:'Restore 40 HP',price:20},{id:'attack',name:'Tempered edge',desc:'+4 attack this run',price:30},{id:'defense',name:'Iron resolve',desc:'+2 defense this run',price:30},...skills.map(id=>({id:'skill:'+id,name:'Skill discovery',desc:id,price:40}))];}
 export function enterShop(s,rng=Math.random){return {...s,event:'market',run:{...s.run,shop:s.run.shop||{offers:shopStock(s,rng),bought:[],refreshes:0}}};}
 export function buyRunOffer(s,index){
  const shop=s.run?.shop,offer=shop?.offers[index];if(s.phase!=='run'||s.event!=='market'||!offer||shop.bought.includes(index))throw Error('Offer is unavailable.');if(s.tokens<offer.price)throw Error('Not enough run tokens.');

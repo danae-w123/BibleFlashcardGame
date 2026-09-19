@@ -74,7 +74,7 @@ export function combatTurn(state,action,rng=Math.random){
  if(!state.battle||state.battle.done)throw Error('No active battle.');
  if(!['strike','guard','radiance'].includes(action))throw Error('Unknown battle action.');
  if(action==='radiance'&&state.focus<1)throw Error('No focus charges left.');
- const b={...state.battle,effects:[]},next={...state,battle:b},gear=gearStats(state);if(gear.regen){next.health=Math.min(maxHealth(state),next.health+gear.regen);b.effects.push('Sentinel healing +'+gear.regen);}if(state.phase!=='run'&&gear.focusRegen&&b.turn%3===0){next.focus=Math.min(maxFocus(state),next.focus+1);b.effects.push('Sage focus +1');}
+ const b={...state.battle,effects:[],lastTurn:{damageDealt:0,lifeStolen:0,shieldGained:0,shieldBlocked:0,healthDamage:0}},next={...state,battle:b},gear=gearStats(state);if(gear.regen){next.health=Math.min(maxHealth(state),next.health+gear.regen);b.effects.push('Sentinel healing +'+gear.regen);}if(state.phase!=='run'&&gear.focusRegen&&b.turn%3===0){next.focus=Math.min(maxFocus(state),next.focus+1);b.effects.push('Sage focus +1');}
  let damage=baseDamage(state,action);
  if(state.phase==='run'&&action==='radiance'){
   const weapon=weaponAbility(career(state).equipped.sword);damage+=weapon.damage;b.burn=Math.max(b.burn||0,weapon.burn);b.shield=(b.shield||0)+weapon.shield;next.health=Math.min(maxHealth(state),next.health+weapon.heal);b.effects.push(weapon.name);
@@ -86,17 +86,18 @@ export function combatTurn(state,action,rng=Math.random){
  if(action!=='guard'&&skillLevel(state,'lightning')&&rng()<.3){damage+=skillLevel(state,'lightning')*6;b.effects.push('Chain lightning');}
  if(action!=='guard'){b.burn=Math.max(b.burn||0,skillLevel(state,'fire')*2+gear.burn);b.poison=Math.min(skillLevel(state,'poison')*3,(b.poison||0)+skillLevel(state,'poison'));}
  damage+=(b.burn||0)+(b.poison||0);if(b.burn)b.effects.push(`Burn +${b.burn}`);if(b.poison)b.effects.push(`Poison +${b.poison}`);
- if(action==='strike'&&skillLevel(state,'leech')){const heal=skillLevel(state,'leech')*3;next.health=Math.min(maxHealth(state),next.health+heal);b.effects.push(`Life drain +${heal} HP`);}
+ if(action==='radiance'&&skillLevel(state,'aegis')){const shield=skillLevel(state,'aegis')*12;b.shield=(b.shield||0)+shield;b.lastTurn.shieldGained=shield;b.effects.push(`Radiant Aegis +${shield} shield`);}
  if(action==='radiance')next.focus--;
  if(b.enemyShield){const absorbed=Math.min(damage,b.enemyShield);b.enemyShield-=absorbed;damage-=absorbed;b.effects.push(`Enemy shield absorbs ${absorbed}`);}
- b.hp=Math.max(0,b.hp-damage);b.lastAction=action;
+ b.lastTurn.damageDealt=Math.min(b.hp,damage);b.hp=Math.max(0,b.hp-damage);b.lastAction=action;
+ if(action==='strike'&&skillLevel(state,'leech')&&b.lastTurn.damageDealt){const heal=Math.min(maxHealth(state)-next.health,Math.ceil(b.lastTurn.damageDealt*skillLevel(state,'leech')*.15));next.health+=heal;b.lastTurn.lifeStolen=heal;if(heal)b.effects.push(`Life steal +${heal} HP`);}
  if(b.hp===0){b.done=true;b.outcome='won';b.log=`You dealt ${damage} damage. The ${b.name} is defeated!`;next.battlesWon++;next.coins+=battleGold(state);next.health=Math.min(maxHealth(state),next.health+12+skillLevel(state,'secondWind')*8);return next;}
  if(b.variant===0&&b.turn%4===0){const healing=b.burn?3:6;b.hp=Math.min(b.max,b.hp+healing);b.effects.push(`Enemy regenerates ${healing}`);}
  const rawAttack=Math.round((8+state.stage*4+(b.intent==='heavy'?10:0)+(b.variant===2&&b.hp<b.max/2?4:0)+(state.phase==='run'?Math.floor(state.run.turn*.4)+(b.kind==='boss'?9:b.kind==='elite'?4:0):0))*(1+career(state).runs*.3));const attack=Math.max(Math.ceil(rawAttack*.25),rawAttack-skillLevel(state,'frost')*2-gear.defense);
  let taken=action==='guard'?Math.ceil(attack*.25):attack;
  if(state.phase==='run'&&state.path==='guardian'&&b.turn%3===0){const block=Math.min(8,taken);taken-=block;b.effects.push(`Guardian shield blocks ${block}`);}
- if(b.shield){const block=Math.min(b.shield,taken);b.shield-=block;taken-=block;b.effects.push(`Equipment shield blocks ${block}`);}
- next.health=Math.max(0,next.health-taken);
+ if(b.shield){const block=Math.min(b.shield,taken);b.shield-=block;taken-=block;b.lastTurn.shieldBlocked=block;b.effects.push(`Shield absorbs ${block}`);}
+ b.lastTurn.healthDamage=Math.min(next.health,taken);next.health=Math.max(0,next.health-taken);
  b.log=`${action==='guard'?'Guarded strike':action==='radiance'?'Radiant strike':'Sword strike'} dealt ${damage} damage. The guardian dealt ${taken}${action==='guard'?' after your block':''}.`;
  if(next.health===0){b.done=true;b.outcome='lost';b.log+=' You retreat to safety. Rest restores your health; you lose up to 10 gold.';next.battlesLost++;next.coins=Math.max(0,next.coins-10);}
  b.turn++;b.intent=b.turn%(b.kind==='boss'?2:3)===0?'heavy':'strike';return next;
@@ -111,7 +112,8 @@ export const SKILLS=[
  {id:'lightning',name:'Chain Lightning',icon:'zap',rarity:'epic',max:3,desc:l=>`Strike and Radiance have a 30% chance to add ${l*6} lightning damage.`},
  {id:'poison',name:'Venom Edge',icon:'droplets',rarity:'rare',max:3,desc:l=>`Weapon attacks add ${l} poison damage per turn, stacking up to ${l*3} in each battle.`},
  {id:'thorns',name:'Briar Shield',icon:'shield',rarity:'common',max:3,desc:l=>`Guard attacks deal ${l*4} extra damage while blocking 75% of incoming damage.`},
- {id:'leech',name:'Life Drain',icon:'heart-pulse',rarity:'epic',max:3,desc:l=>`Every basic Strike restores ${l*3} health before the enemy attacks.`},
+ {id:'leech',name:'Life Steal',icon:'heart-pulse',rarity:'epic',max:3,desc:l=>`Basic Strikes heal ${l*15}% of actual damage dealt (rounded up). Shielded damage gives no healing.`},
+ {id:'aegis',name:'Radiant Aegis',icon:'shield-check',rarity:'rare',max:3,desc:l=>`Each ultimate grants ${l*12} shield HP before the counterattack. Absorbs damage until spent; resets after battle.`},
  {id:'secondWind',name:'Second Wind',icon:'wind',rarity:'common',max:3,desc:l=>`Recover ${l*8} extra health after every battle victory.`},
  {id:'vigor',name:'Heart of Courage',icon:'heart',rarity:'common',max:3,desc:l=>`Maximum health increases by ${l*20}. Each upgrade also heals 20 HP.`},
  {id:'focus',name:'Radiant Focus',icon:'sparkles',rarity:'rare',max:3,desc:l=>`Gain +${l*5} ultimate charge with each basic or guarded attack. Picking this skill adds 20 charge.`},
