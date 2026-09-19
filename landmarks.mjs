@@ -1,0 +1,9 @@
+// Original vector miniatures designed to remain readable on small board tiles.
+export function miniature(kind){
+ const art={
+ market:'<ellipse cx="50" cy="91" rx="43" ry="7" fill="#071722" opacity=".5"/><path d="M19 43h62v44H19z" fill="#69402d"/><path d="M23 46h54v36H23z" fill="#b27945"/><path d="M13 39 27 15h48l14 24z" fill="#dfb45f"/><path d="m27 15-7 24h14l5-24zm24 0-2 24h14l-1-24zm24 0 7 24h7L75 15z" fill="#287b79"/><path d="M13 39v10q7 8 14 0 7 8 14 0 7 8 14 0 7 8 14 0 7 8 20 0V39" fill="#efd287"/><path d="M29 59h42v20H29z" fill="#332e2b"/><circle cx="51" cy="56" r="7" fill="#e9bb87"/><path d="M40 65q11-9 22 0v12H40" fill="#358d86"/><path d="M15 74h70v13H15z" fill="#a57542"/><path d="M18 74h64" stroke="#f2cb7d" stroke-width="4"/><path d="M26 68v-7h7v7l3 6H23z" fill="#ce5975"/><circle cx="71" cy="71" r="4" fill="#ffd26f"/>',
+ camp:'<path d="m8 85 39-67 45 67z" fill="#b7773f"/><path d="m47 18 8 67h37z" fill="#e2bc73"/><path d="m47 40-20 45h30z" fill="#302c2a"/><path d="m12 87 70-2" stroke="#6d4932" stroke-width="5"/><path d="M70 88c-25-9-5-20-2-30 14 9 26 25 2 30" fill="#f1a543"/><path d="M70 86c-10-3-4-13 0-16 7 8 8 13 0 16" fill="#ffe992"/>',
+ treasure:'<ellipse cx="50" cy="88" rx="40" ry="7" fill="#051922" opacity=".5"/><path d="M17 48q0-26 33-26t33 26v38H17z" fill="#91562f" stroke="#e9bb59" stroke-width="5"/><path d="M18 51h64M32 30v55m36-55v55" stroke="#f4ce6c" stroke-width="6"/><path d="M43 47h15v20H43z" fill="#ffd77d"/><circle cx="50" cy="55" r="3" fill="#5b4429"/><path d="m10 19 3-9 3 9 9 3-9 3-3 9-3-9-9-3zm73-2 2-7 3 7 7 3-7 2-3 8-2-8-8-2" fill="#fff0ab"/>',
+ blessing:'<path d="M18 88h64l-8-10H26zM33 75h34l-6-49H39z" fill="#b9c5c6"/><path d="M29 26h43v9H29z" fill="#e7d9a7"/><path d="m50 6 14 14-14 15-14-15z" fill="#9bf2ed" stroke="#ffeab0" stroke-width="3"/><path d="M42 41h16v28H42z" fill="#769798"/>'
+ }[kind];return art?`<svg class="landmark-model" viewBox="0 0 100 100" aria-hidden="true">${art}</svg>`:'';
+}

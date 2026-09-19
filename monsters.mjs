@@ -145,7 +145,7 @@ export const MONSTERS=[
   "variant": 0
  }
 ];
-const BOSSES=['python','chimera','medusa','hydra','scylla','charybdis'];
+export const BOSSES=['python','chimera','medusa','hydra','scylla','charybdis'];
 export function monsterInfo(id){return MONSTERS.find(m=>m.id===id)||MONSTERS[0];}
 export function selectMonster(s,kind,rng=Math.random){
  if(kind==='boss')return {monster:monsterInfo(BOSSES[s.stage]),seen:s.run.monstersSeen||[]};

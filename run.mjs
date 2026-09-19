@@ -1,4 +1,5 @@
-import {boardForLap,rollDice,BOARD_SIZE} from './board.mjs';
+import {MAPS} from './maps.mjs';
+import {boardForLap,rollDice,boardSize,eliteTurns} from './board.mjs';
 import {selectMonster} from './monsters.mjs';
 import {freshState,STAGES,TILE_TYPES,startBattle as oldStart,combatTurn as oldTurn,recordAnswer as oldAnswer,chooseUpgrade as oldChoose,resolveEvent as oldEvent,drawSkillChoices,maxHealth,maxFocus,skillLevel,summary,SKILLS} from './engine.mjs';
 import {career,grantGrowth,awardItem,SLOTS,gearStats,weaponAbility} from './progression.mjs';
@@ -18,16 +19,16 @@ export function startRun(s,chapter=s.stage){
  if(!Number.isInteger(chapter)||chapter<0||chapter>s.unlocked||chapter>=STAGES.length)throw Error('Chapter is locked.');
  const next={...freshState(s.name,s.alias,s.mode,s.character),schema:2,phase:'run',path:s.path||'guardian',career:structuredClone(career(s)),coins:s.coins,unlocked:s.unlocked,history:s.history||[],armor:[...s.armor],stage:chapter,tokens:0,
  run:{id:globalThis.crypto?.randomUUID?.()||`${Date.now()}-${Math.random()}`,turn:0,total:30,move:null,paused:false,settled:false,xp:0,ore:0,chests:0,charge:50,stats:{attack:0,hp:0,defense:0},shop:null,revived:false},upgradePending:true,rewardReason:'start'};
- next.run.lap=0;next.run.board=boardForLap(next.run.id,0);next.health=maxHealth(next);next.focus=maxFocus(next);next.skillChoices=drawSkillChoices(next);return next;
+ next.run.layoutVersion=2;next.run.lap=0;next.run.board=boardForLap(next.run.id,0,MAPS[chapter].path.length);next.health=maxHealth(next);next.focus=maxFocus(next);next.skillChoices=drawSkillChoices(next);return next;
 }
 export function planMove(s,rng=Math.random){
  if(s.phase!=='run'||s.run.settled||s.pending||s.event||s.upgradePending||s.battle)throw Error('Resolve the current encounter first.');
  if(s.run.move)return s;
  if(s.run.turn>=s.run.total)throw Error('The final encounter must be resolved before another run.');
- const turn=s.run.turn+1,dice=rollDice(rng),steps=dice[0]+dice[1],to=(s.position+steps)%BOARD_SIZE;
- const lap=(s.run.lap||0)+Math.floor((s.position+steps)/BOARD_SIZE),board=lap===(s.run.lap||0)?s.run.board||TILE_TYPES:boardForLap(s.run.id,lap);
+ const size=boardSize(s),turn=s.run.turn+1,dice=rollDice(rng),steps=dice[0]+dice[1],to=(s.position+steps)%size;
+ const lap=(s.run.lap||0)+Math.floor((s.position+steps)/size),board=lap===(s.run.lap||0)?s.run.board||TILE_TYPES:boardForLap(s.run.id,lap,size);
  // Guaranteed scripture and elite checkpoints keep every finite run varied.
- const kind=turn===30?'boss':turn%10===0?'elite':turn%5===0?'market':turn%3===0?'trial':board[to];
+ const kind=turn===30?'boss':eliteTurns(s).includes(turn)?'elite':turn%5===0?'market':turn%3===0?'trial':board[to];
  return {...s,lastRoll:steps,run:{...s.run,turn,currentKind:null,move:{from:s.position,to,steps,dice,kind,lap,board}}};
 }
 export function arrive(s){if(!s.run?.move)throw Error('No planned movement.');return {...s,position:s.run.move.to,event:s.run.move.kind,run:{...s.run,currentKind:s.run.move.kind,lap:s.run.move.lap??s.run.lap??0,board:s.run.move.board||s.run.board||TILE_TYPES,move:null}};}
