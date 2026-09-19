@@ -40,3 +40,10 @@ main.lobby-main{width:100%;max-width:1500px;padding:10px 14px;flex:1;min-height:
 .welcome-actions{display:grid;gap:12px;margin:24px 0 14px}.welcome-actions button{min-height:52px;justify-content:center}
 .welcome-save{font-size:13px;color:#b6c4cb;min-height:39px}.welcome-content>small{display:block;font-size:10px;letter-spacing:2px;color:#b7a179;margin:18px 0 8px}
 @media(max-height:650px){.welcome-screen{padding:12px}.welcome-content{padding:12px 18px}.welcome-emblem{margin:6px auto}.welcome-emblem svg{width:34px;height:34px}.welcome-actions{margin:14px 0 10px;gap:8px}.welcome-content p{margin:8px 0}.welcome-content>small{margin:10px 0 0}}
+
+.monster-art{background-size:600% 400%;background-repeat:no-repeat;aspect-ratio:1;flex-shrink:0;border-radius:18%;background-color:#081522}
+.battle-dock .monster-art.fighter{width:48%;height:auto;max-height:none;max-width:45%;aspect-ratio:1;filter:drop-shadow(0 0 14px #a088d655);mask-image:radial-gradient(ellipse at center,#000 55%,transparent 73%)}
+.bestiary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.bestiary-grid article{min-width:0;background:#081522;border:1px solid #d7b86b44;border-radius:14px;overflow:hidden;text-align:center}.bestiary-grid .monster-art{width:100%;border-radius:0}.bestiary-grid h3{font-size:14px;margin:8px 4px 14px}
+@media(max-width:500px){.bestiary-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.bestiary-grid h3{font-size:12px}.run-tools{gap:4px}.run-tools button{font-size:10px;padding:4px}}
+
+.battle-dock .battle-arena{container-type:size}.battle-dock .monster-art.fighter{width:min(45cqw,95cqh);max-width:none;height:auto}

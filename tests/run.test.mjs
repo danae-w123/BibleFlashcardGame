@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {newProfile,startRun,runChoice,planMove,arrive,runBattle as prepareBattle,beginBattle,runCombat,finishRunBattle,settleRun,returnToLobby,trainWithGold,enterShop,buyRunOffer,runAnswer,migrate,campChoice} from '../run.mjs';
 import {baseDamage,drawSkillChoices,freshState} from '../engine.mjs';
 import {equipItem,awardItem,fusionRecipe,fuseEquipment,protectEquipment,resetEquipmentLevel,upgradeEquipment} from '../progression.mjs';
-const runBattle=(s,kind)=>beginBattle(prepareBattle(s,kind));
+const runBattle=(s,kind)=>beginBattle(prepareBattle(s,kind,()=>0));
 const active=()=>{let s=startRun(newProfile('Test'));s.skillChoices=['frost'];return runChoice(s,'frost');};
 test('new and migrated profiles start in lobby without erasing permanent resources or results',()=>{const old={...freshState('Old'),coins:70,stage:3,armor:[0,1],attempts:[{correct:false,reference:'John 1:1'}]};const s=migrate(old);assert.equal(s.phase,'lobby');assert.equal(s.coins,70);assert.equal(s.unlocked,3);assert.equal(s.attempts.length,1);assert.equal(newProfile().phase,'lobby');});
 test('saved movement resumes without consuming a second turn or reroll',()=>{const s=planMove(active(),()=>.8);const restored=JSON.parse(JSON.stringify(s));assert.deepEqual(planMove(restored,()=>0),s);const done=arrive(restored);assert.equal(done.run.turn,1);assert.equal(done.position,5);assert.equal(done.run.move,null);});

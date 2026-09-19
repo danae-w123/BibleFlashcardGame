@@ -1,3 +1,4 @@
+import {selectMonster} from './monsters.mjs';
 import {freshState,STAGES,TILE_TYPES,startBattle as oldStart,combatTurn as oldTurn,recordAnswer as oldAnswer,chooseUpgrade as oldChoose,resolveEvent as oldEvent,drawSkillChoices,maxHealth,maxFocus,skillLevel,summary,SKILLS} from './engine.mjs';
 import {career,grantGrowth,awardItem,SLOTS,gearStats,weaponAbility} from './progression.mjs';
 
@@ -41,13 +42,15 @@ export function campChoice(s,choice,rng=Math.random){
  if(picks.length)return {...s,event:null,upgradePending:true,rewardReason:'camp',skillChoices:picks};
  return {...s,event:null,run:{...s.run,stats:{...s.run.stats,attack:s.run.stats.attack+3}}};
 }
-export function runBattle(s,kind='battle'){
+export function runBattle(s,kind='battle',rng=Math.random){
  const next=oldStart({...s,career:{...career(s),runs:0}});next.career=s.career;
  const elite=kind==='elite',boss=kind==='boss',scale=1+s.run.turn*.028;
  const max=Math.round((52+s.stage*24)*scale*(boss?3:elite?1.6:1));
- const variant=(s.stage+s.battlesWon+s.battlesLost)%3;
+ const {monster,seen}=selectMonster(s,kind,rng);
+ const variant=monster.variant;
+ next.run={...s.run,monstersSeen:seen};
  const traits=['Regenerates 6 HP every fourth round. Burn halves this healing.','Starts with a 12 HP stone shield.','Below half health, attacks deal 4 extra damage.'];
- next.battle={...next.battle,started:false,kind,variant,trait:traits[variant],enemyShield:variant===1?12:0,name:boss?['Gatekeeper of the Dawn','Cana Stonewarden','Nightshade Colossus','Keeper of the Well','Watchtower Warden','Tempest Sovereign'][s.stage]:elite?'Elite '+next.battle.name:next.battle.name,hp:max,max,shield:0};
+ next.battle={...next.battle,started:false,kind,variant,trait:traits[variant],enemyShield:variant===1?12:0,monsterId:monster.id,name:(boss?'':elite?'Elite ':'')+monster.name,hp:max,max,shield:0};
  return next;
 }
 export function beginBattle(s){if(!s.battle||s.battle.done)throw Error('No battle to start.');return {...s,run:{...s.run,battlePaused:false},battle:{...s.battle,started:true}};}
